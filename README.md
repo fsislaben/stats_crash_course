@@ -1,5 +1,5 @@
 # Statistics Crash Course: When to use What
-Below is a flow chart that can be used to determine what sort of statistical test should be used for a particular type of dataset
+Below are guidelines that should be followed to determine what sort of statistical test should be used for a particular type of dataset
 
 # Is the research question focused on comparing the means of two or more groups?
 
