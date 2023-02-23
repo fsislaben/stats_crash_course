@@ -8,7 +8,7 @@ The alternative hypothesis is that there is a difference between the tested grou
 NOTE: Using an ANOVA is just the first step of this analysis. Following a significant result from an ANOVA, a post-hoc test, like a Tukey test, should be performed.
 
 ## Values needed to conduct an ANOVA
-To conduct an ANOVA using JMP, Excel, or R, you will need the your data points recorded in n columns; one column for each treatment.
+To conduct an ANOVA using JMP, Excel, or R, you will need the your data points recorded in n columns; one column for each variable.
 The data for this analysis should be numeric.
 If you have catagorical data, make sure you transform them into numeric catagories.
 Then conduct the analysis by specifying which column corresponds to which group.
@@ -21,5 +21,6 @@ The ANOVA will produce the following values. I have provided a brief description
 
 ## Post hoc test
 
-Following a the recovery of a statistically significant P-value from an ANOVA, a Tukey test should be performed to determine which of the groups are statistically different from each other by doing multiple pairwise comparisons between the means of each group.
+Following a the recovery of a statistically significant P-value from an ANOVA, a Tukey test should be performed to determine which of the groups are statistically different from each other. 
+The Tukey test does multiple multiple pairwise comparisons between the means of each group.
 This will tell you which groups within the dataset contain statistically different means. 

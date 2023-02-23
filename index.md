@@ -1,4 +1,6 @@
-# Statistics Crash Course: When to use What
+![](IS_Logo_Stacked_CommunityScience.png)
+
+# Statistics Crash Course: When to use what
 Below are guidelines that should be followed to determine what sort of statistical test should be used for a particular type of dataset
 
 # Is the research question focused on comparing the means of two or more groups?
@@ -59,7 +61,7 @@ Related groups: McNemar's test
 
 ## Is the categorical variable nominal or ordinal?
 
-- Nominal: ANOVA or Kruskal-Wallis test
+- Nominal: [ANOVA](./pages/anova.md) or Kruskal-Wallis test
 
 - Ordinal: Jonckheere-Terpstra test or Wilcoxon rank-sum test
 
