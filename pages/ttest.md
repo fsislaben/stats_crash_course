@@ -19,7 +19,7 @@ Then conduct the analysis by specifying which column corresponds to which group.
 
 The t-test will produce the following values. I have provided a brief description of how to interpret them.
 - degrees of freedom: (sample size - 1) the number of values that have the freedom to vary in the dataset 
-- T-score: the ratio between the difference between two groups and the difference within the groups. A larger T-score indicates a larger difference between the groups than within the groups. A smaller T-scorce indicates a larger difference within the 
+- T-score: the ratio between the difference between two groups and the difference within the groups. A larger T-score indicates a larger difference between the groups than within the groups. A smaller T-scorce indicates a larger difference within the group than between the groups
 - P-value: the probability that the results from your sample occured by random chance. Important note: the p-value does not indicate that the treatment is the CAUSE. All that it states is that the two means are significantly difference from each other
 
 ## Visualizing the results
