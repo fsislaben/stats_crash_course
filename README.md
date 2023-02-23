@@ -1,6 +1,5 @@
-![](IS_Logo_Stacked_CommunityScience.png)
+![](./IS_Logo_Stacked_CommunityScience.png)
 
-# Statistics Crash Course: When to use What
 Below are guidelines that should be followed to determine what sort of statistical test should be used for a particular type of dataset
 
 # Is the research question focused on comparing the means of two or more groups?
@@ -31,7 +30,7 @@ Are the data normally distributed?
     
 ## Are the groups independent or paired?
 
-Independent groups: chi-squared test or Fisher's exact test
+Independent groups: [chi-squared test](./pages/chisquare.md) or [Fisher's exact test](./pages/fisherstest.md)
 
 Paired groups: McNemar's test
       
@@ -45,7 +44,7 @@ Are the sample sizes large (at least 10 in each group)?
 
 - Yes: z-test or chi-squared test
 
-- No: Fisher's exact test
+- No: [Fisher's exact test](./pages/fisherstest.md)
 
 Related groups: McNemar's test
       
@@ -61,7 +60,7 @@ Related groups: McNemar's test
 
 ## Is the categorical variable nominal or ordinal?
 
-- Nominal: ANOVA or Kruskal-Wallis test
+- Nominal: [ANOVA](./pages/anova.md) or Kruskal-Wallis test
 
 - Ordinal: Jonckheere-Terpstra test or Wilcoxon rank-sum test
 
