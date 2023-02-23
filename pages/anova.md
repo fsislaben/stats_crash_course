@@ -17,6 +17,8 @@ Then conduct the analysis by specifying which column corresponds to which group.
 
 The ANOVA will produce the following values. I have provided a brief description of how to interpret them.
 - P-value: the probability that the results from your sample occurred by random chance. Important note: the p-value does not indicate that the treatment is the CAUSE. All that it states is that the two means are significantly difference from each other.
+  - P-value < 0.05 indicates the means of each group are different from each other (Reject the null hypothesis)
+  - P-value > 0.05 indicates that you cannot conclude that means of each group are different from each other  (Fail to reject the null hypothesis)
 - degrees of freedom: (sample size - 1) the number of values that have the freedom to vary in the dataset.
 
 
