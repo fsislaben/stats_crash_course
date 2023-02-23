@@ -30,7 +30,7 @@ Are the data normally distributed?
     
 ## Are the groups independent or paired?
 
-Independent groups: chi-squared test or Fisher's exact test
+Independent groups: [chi-squared test](./pages/chisquare.md) or Fisher's exact test
 
 Paired groups: McNemar's test
       
