@@ -1,5 +1,5 @@
 # Statistics Crash Course - When to use what
-## Ethan C. Hill, Bioinformatician,`Iolani School Office of Community Science
+## Ethan C. Hill, Bioinformatician, Iolani School Office of Community Science
 
 ![](./IS_Logo_Stacked_CommunityScience.png)
 
