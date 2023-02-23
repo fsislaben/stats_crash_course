@@ -1,3 +1,6 @@
+# Statistics Crash Course: When to use What
+Below are guidelines that should be followed to determine what sort of statistical test should be used for a particular type of dataset
+
 # Is the research question focused on comparing the means of two or more groups?
 
 ## Are the groups independent or related?

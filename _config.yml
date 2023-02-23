@@ -3,8 +3,6 @@ safe: true
 source: /root
 incremental: false
 highlighter: rouge
-title: Statistics Crash Course
-description: Below are guidelines that should be followed to determine what sort of statistical test should be used for a particular type of dataset
 theme: jekyll-theme-cayman
 plugins:
     - jekyll-remote-theme # add this line to the plugins list if you already have one
