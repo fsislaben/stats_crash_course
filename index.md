@@ -1,5 +1,3 @@
-# Statistics Crash Course - When to use what
-
 ![](./IS_Logo_Stacked_CommunityScience.png)
 
 Below are guidelines that should be followed to determine what sort of statistical test should be used for a particular type of dataset
