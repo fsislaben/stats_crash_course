@@ -9,13 +9,13 @@ Below are guidelines that should be followed to determine what sort of statistic
 
 Are the data normally distributed?
 
--  Normally distributed: [t-test](./ttest.md) or ANOVA
+-  Normally distributed: [t-test](./pages/ttest.md) or ANOVA
 
 -  Not normally distributed: Mann-Whitney U test or Kruskal-Wallis test
     
 Are the sample sizes equal or unequal?
 
-- Equal sample sizes: [t-test](./ttest.md)
+- Equal sample sizes: [t-test](./pages/ttest.md)
 
 - Unequal sample sizes: Welch's t-test
     
