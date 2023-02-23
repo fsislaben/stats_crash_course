@@ -15,7 +15,7 @@ Are the data normally distributed?
     
 Are the sample sizes equal or unequal?
 
-- Equal sample sizes: t-test
+- Equal sample sizes: [t-test](./ttest.md)
 
 - Unequal sample sizes: Welch's t-test
     
