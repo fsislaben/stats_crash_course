@@ -8,7 +8,7 @@ The null hypothesis of a T-test is that the means between the two groups are the
 The alternative hypothesis is that the means between two groups are different.
 
 An important point to keep in mind is the whether you intend on using a one-tailed or two-tailed T-test.
-A one-tailed T-test looks for either a directional (increase or decrease) change in the mean while a two tailed T-test just looks for a change (could be an increase OR a decrease) 
+A one-tailed T-test looks for either a directional (increase or decrease) change in the mean while a two tailed T-test just looks for a change (could be an increase OR a decrease).
 
 ## Values needed to conduct a t-test
 
@@ -19,9 +19,9 @@ Then conduct the analysis by specifying which column corresponds to which group.
 ## Values recovered from a t-test
 
 The t-test will produce the following values. I have provided a brief description of how to interpret them.
-- degrees of freedom: (sample size - 1) the number of values that have the freedom to vary in the dataset 
-- T-score: the ratio between the difference between two groups and the difference within the groups. A larger T-score indicates a larger difference between the groups than within the groups. A smaller T-score indicates a larger difference within the group than between the groups
-- P-value: the probability that the results from your sample occurred by random chance. Important note: the p-value does not indicate that the treatment is the CAUSE. All that it states is that the two means are significantly different from each other
+- degrees of freedom: (sample size - 1) the number of values that have the freedom to vary in the dataset .
+- T-score: the ratio between the difference between two groups and the difference within the groups. A larger T-score indicates a larger difference between the groups than within the groups. A smaller T-score indicates a larger difference within the group than between the groups.
+- P-value: the probability that the results from your sample occurred by random chance. Important note: the p-value does not indicate that the treatment is the CAUSE. All that it states is that the two means are significantly different from each other.
 
 
 ## Visualizing the results
