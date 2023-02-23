@@ -2,7 +2,7 @@
 
 The chi-square test can either test for the independence between two groups or test if a sample is consistent with a known/expected distribution.
 This test is extremely useful for analyzing differences in catagorical data and can help determine if the observed results are in line with expected results, and to rule out that observations are due to chance.
-These data must be random, independent and drawn from a large(ish) pool (n < 10 ).
+These data must be random, independent and drawn from a large(ish) pool (n > 10 ).
 
 ### Chi-square test for independence
 
