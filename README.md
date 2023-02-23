@@ -9,7 +9,7 @@ Below are guidelines that should be followed to determine what sort of statistic
 
 Are the data normally distributed?
 
--  Normally distributed: t-test or ANOVA
+-  Normally distributed: [t-test](./ttest.md) or ANOVA
 
 -  Not normally distributed: Mann-Whitney U test or Kruskal-Wallis test
     
