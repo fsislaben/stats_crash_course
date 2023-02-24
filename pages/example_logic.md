@@ -82,10 +82,10 @@ I would then choose my analysis tool (JMP, Excel, Sheets, or R ) and run the ana
 I have included an example Excel analysis below.
 
 1. Input the data into your Excel sheet:
-![](./images/example_logic/excel_example.png)
+![](./pages/images/example_logic/excel_example.png)
 
 2. Go to "Data Analysis" in the top right corner and select "t-test: Two Sample Assuming Unqual Variances":
-![](./images/example_logic/excel_ttest.png)
+![](./pages/images/example_logic/excel_ttest.png)
 
 3. The output should be displayed in a new sheet and should look something like this:
-![](./images/example_logic/excel_ttest_result.png)
+![](./pages/images/example_logic/excel_ttest_result.png)
