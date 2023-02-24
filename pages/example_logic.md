@@ -91,10 +91,10 @@ I have included an example Excel analysis below.
 
 3. Input the formula for a T-test into google sheets using the formula below. ***Make sure that the rows of column A and B are representative of the dimensions of your data.*** In the generic formula: ***Range1*** is the rows of your first set of observations, ***Range2*** is the rows of your second set of observations, ***tails*** is either one-tailed or two-tailed (1, 2), and ***type*** is either paired test, two-sample equal variance or two-sample unequal variance (1, 2, 3)
 ```
-# Generic formula
+Generic formula
 =T.TEST(Range1, Range2, tails, type)
 
-# Specific formula for example
+Specific formula for example
 =T.TEST(A2:A20, B2:B14, 2, 3)
 ```
 
