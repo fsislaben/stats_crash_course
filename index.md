@@ -1,6 +1,8 @@
 ![](./IS_Logo_Stacked_CommunityScience.png)
 
-Below are guidelines that should be followed to determine what sort of statistical test should be used for a particular type of dataset
+Below are guidelines that should be followed to determine what sort of statistical test should be used for a particular type of dataset.
+
+[Click here](./pages/example_logic.md) to see an example of how to use this website to aid you through the through process of identifying the type of data you have and what statistical analysis you should choose based on the assumptions you are making about your data.
 
 # Is the research question focused on comparing the means of two or more groups?
 
@@ -18,7 +20,7 @@ Are the sample sizes equal or unequal?
 
 - Equal sample sizes: [t-test](./pages/ttest.md)
 
-- Unequal sample sizes: [t-test](./pages/ttest.md)
+- Unequal sample sizes: [Welch's t-test](./pages/ttest.md)
 
 ### Related groups:
 

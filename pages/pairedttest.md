@@ -49,7 +49,6 @@ The T-test will produce the following values. I have provided a brief descriptio
   - P-value < 0.05 indicates the means of each group are different from each other (Reject the null hypothesis)
   - P-value > 0.05 indicates that you cannot conclude that means of each group are different from each other (Fail to reject the null hypothesis)
 
-
 ## Visualizing the results
 
 Just because you ran the analysis in JMP does not mean you have to use JMP to visualize your results. As long as you have a statistically significant result you can generate the plots however you would like (e.g. Excel, Google Sheets, R, Python).
