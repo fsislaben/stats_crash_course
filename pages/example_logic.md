@@ -83,14 +83,26 @@ I would then choose my analysis tool (JMP, Excel, Sheets, or R ) and run the ana
 
 I have included an example Excel analysis below.
 
-1. Input the data into your Excel sheet:
+1. Input all the raw data into your Excel sheet:
+![](../pages/images/example_logic/gsheets_raw.png)
 
-![](../pages/images/example_logic/excel_example.png)
+2. Filter any of the extra data so you are only working with the data of interest
+![](../pages/images/example_logic/gsheets_processed.png)
 
-2. Go to "Data Analysis" in the top right corner and select "t-test: Two Sample Assuming Unqual Variances":
+3. Input the formula for a T-test into google sheets using the formula below. ***Make sure that the rows of column A and B are representative of the dimensions of your data.***
+```
+=T.TEST(A2:A20, B2:B14, 2, 3)
+```
 
-![](../pages/images/example_logic/excel_ttest.png)
+The generic format for this formula is:
+```
+=T.TEST(Range1, Range2, tails, type) 
+```
+Where
+- Range1 is the rows of your first set of observations
+- Range2 is the rows of your second set of observations
+- Tails is either one-tailed or two-tailed (1, 2)
+- Type is either paired test, two-sample equal variance or two-sample unequal variance (1, 2, 3)
 
-3. The output should be displayed in a new sheet and should look something like this:
-
-![](../pages/images/example_logic/excel_ttest_result.png)
+4. Once you have input the formula into the cell, the number in the cell will be the p-value of the T-test.
+![](../pages/images/example_logic/gsheets_results.png)
