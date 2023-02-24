@@ -60,16 +60,16 @@ Out of the list of subheadings below, bold indicates which category the data for
     -  ***Normally distributed: [t-test](./pages/ttest.md) or [ANOVA](./pages/anova.md)***
     -  Not normally distributed: Mann-Whitney U test or Kruskal-Wallis test
   - Are the sample sizes equal or unequal?
-    - Equal sample sizes: [t-test](./pages/ttest.md)
-    - Unequal sample sizes: [Welch’s t-test](./pages/ttest.md)
+    - Equal sample sizes: [t-test](./ttest.md)
+    - Unequal sample sizes: [Welch’s t-test](./ttest.md)
 Related groups:
   - Are the data normally distributed?
-    - Normally distributed: [paired samples t-test](./pages/pairedttest.md) or repeated measures ANOVA
+    - Normally distributed: [paired samples t-test](./pairedttest.md) or repeated measures ANOVA
     - Not normally distributed: Wilcoxon signed-rank test or Friedman test
 
 #### Are the groups independent or paired?
 
-Independent groups: [chi-squared test](./pages/chisquare.md) or [Fisher's exact test](./pages/fisherstest.md)
+Independent groups: [chi-squared test](./chisquare.md) or [Fisher's exact test](./fisherstest.md)
 
 Paired groups: McNemar’s test
 
@@ -79,13 +79,15 @@ Now that I have made the assumptions that my data contains two independent group
 
 I would then choose my analysis tool (JMP, Excel, Sheets, or R ) and run the analysis.
 
+# Example analysis
+
 I have included an example Excel analysis below.
 
 1. Input the data into your Excel sheet:
-![](./pages/images/example_logic/excel_example.png)
+![](./images/example_logic/excel_example.png)
 
 2. Go to "Data Analysis" in the top right corner and select "t-test: Two Sample Assuming Unqual Variances":
-![](./pages/images/example_logic/excel_ttest.png)
+![](./images/example_logic/excel_ttest.png)
 
 3. The output should be displayed in a new sheet and should look something like this:
-![](./pages/images/example_logic/excel_ttest_result.png)
+![](./images/example_logic/excel_ttest_result.png)
