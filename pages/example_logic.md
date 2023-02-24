@@ -60,7 +60,7 @@ Out of the list of subheadings below, bold indicates which category the data for
     -  ***Normally distributed: [t-test](./pages/ttest.md) or [ANOVA](./pages/anova.md)***
     -  Not normally distributed: Mann-Whitney U test or Kruskal-Wallis test
   - Are the sample sizes equal or unequal?
-    - Equal sample sizes: [t-test](./ttest.md)
+    - Equal sample sizes: [t-test](../pages/ttest.md)
     - Unequal sample sizes: [Welch’s t-test](./ttest.md)
 Related groups:
   - Are the data normally distributed?
