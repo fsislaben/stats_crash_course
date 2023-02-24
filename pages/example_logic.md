@@ -89,15 +89,8 @@ I have included an example Excel analysis below.
 2. Filter any of the extra data so you are only working with the data of interest
 ![](../pages/images/example_logic/gsheets_processed.png)
 
-3. Input the formula for a T-test into google sheets using the formula below. ***Make sure that the rows of column A and B are representative of the dimensions of your data.*** In the generic formula: ***Range1*** is the rows of your first set of observations, ***Range2*** is the rows of your second set of observations, ***tails*** is either one-tailed or two-tailed (1, 2), and ***type*** is either paired test, two-sample equal variance or two-sample unequal variance (1, 2, 3).
+3. Input the formula for a T-test into google sheets using the formula below. ***Make sure that the rows of column A and B are representative of the dimensions of your data.*** In the generic formula: ***Range1*** is the rows of your first set of observations, ***Range2*** is the rows of your second set of observations, ***tails*** is either one-tailed or two-tailed (1, 2), and ***type*** is either paired test, two-sample equal variance or two-sample unequal variance (1, 2, 3). The ***generic formula*** looks like: '=T.TEST(Range1, Range2, tails, type)' while the specific formula looks like: '=T.TEST(A2:A20, B2:B14, 2, 3)'.
 
-  ```
-  Generic formula
-  =T.TEST(Range1, Range2, tails, type)
-
-  Specific formula for example
-  =T.TEST(A2:A20, B2:B14, 2, 3)
-  ```
 
 4. Once you have input the formula into the cell, the number in the cell will be the p-value of the T-test.
 ![](../pages/images/example_logic/gsheets_results.png)
