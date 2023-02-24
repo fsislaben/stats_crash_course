@@ -78,3 +78,14 @@ Paired groups: McNemar’s test
 Now that I have made the assumptions that my data contains two independent groups and the data are most likely normally distributed I have narrowed it down to two options: a T-test or an ANOVA. I then take a look at the pages for both and realize that the ANOVA would be useful for datasets containing > two categories. However, my dataset only contains two categories (automatic vs manual transmission) therefore the T-test would be a better fit.
 
 I would then choose my analysis tool (JMP, Excel, Sheets, or R ) and run the analysis.
+
+I have included an example Excel analysis below.
+
+1. Input the data into your Excel sheet:
+![](./images/excel_example.png)
+
+2. Go to "Data Analysis" in the top right corner and select "t-test: Two Sample Assuming Unqual Variances":
+![](./images/excel_ttest.png)
+
+3. The output should be displayed in a new sheet and should look something like this:
+![](./images/excel_ttest_results.png)
