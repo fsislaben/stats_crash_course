@@ -24,8 +24,8 @@ I would assume that ~ 9/10 times you would be safer off using the Welch's T-test
 
 ### Which T-test to use?
 
-In fact, as a general rule of thumb is your default choice for conducting a T-test is to automatically opt to use the Welch's T-test.
-If you really want ignore this warning and for some reason actually choose to use the Student's T-test, you might as well run the Welch's T-test in parallel.
+In fact, as a general rule of thumb, your default choice for conducting a T-test should be the Welch's T-test.
+If, for some reason, you really want ignore this warning and choose to use the Student's T-test, you might as well run the Welch's T-test in parallel.
 If the results between the two tests are the same, congratulations, you got lucky but if the results are different, trust the results from the Welch's T-test.
 
 Here are some pointers when setting up a T-test using different tools.
@@ -33,15 +33,31 @@ Here are some pointers when setting up a T-test using different tools.
   - Student's T-test: "T-test: Two-Sample Assuming Equal Variances"
   - Welch's T-test: "T-test: Two-Sample Assuming Unequal Variances"
 - R
-  - All T-test will be run as Welch's T-test
+  - Student's T-test: no
+  - Welch's T-test: t.test()
 - JMP:
-  - Two Sample t Test (assuming unequal population variances)
+  - Student's T-test: no
+  - Welch's T-test: Two Sample T-test (assuming unequal population variances)
 
 ## Values needed to conduct a T-test
 
 To conduct a T-test using JMP, Excel, or R, you will need your data points recorded in two columns; one column for each treatment.
 The data for this analysis should be numeric.
 Then conduct the analysis by specifying which column corresponds to which group.
+
+Here is an example of how you data should be formatted:
+
+| Height Group 1 (inches) | Height Group 2 (inches)  |
+| ----------------------- | ------------------------ |
+| 68                      | 48                       |
+| 70                      | 50                       |
+| 75                      | 60                       |
+| 70                      | 52                       |
+| 72                      | 55                       |
+| 73                      | 58                       |
+| 77                      | 56                       |
+| 78                      | 59                       |
+| 71                      | 51                       |
 
 ## Values recovered from a T-test
 
@@ -51,7 +67,6 @@ The T-test will produce the following values. I have provided a brief descriptio
 - P-value: the probability that the results from your sample occurred by random chance. Important note: the p-value does not indicate that the treatment is the CAUSE. All that it states is that the two means are significantly different from each other.
   - P-value < 0.05 indicates the means of each group are different from each other (Reject the null hypothesis)
   - P-value > 0.05 indicates that you cannot conclude that means of each group are different from each other (Fail to reject the null hypothesis)
-
 
 ## Visualizing the results
 
