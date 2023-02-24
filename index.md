@@ -28,7 +28,7 @@ Are the data normally distributed?
 
 - Normally distributed: [paired samples t-test](./pages/pairedttest.md) or repeated measures ANOVA
 
-- Not normally distributed: Wilcoxon signed-rank test or Friedman test
+- Not normally distributed: [Wilcoxon signed-rank test](./pages/wilcoxon.md) or Friedman test
 
 ## Are the groups independent or paired?
 
@@ -64,7 +64,7 @@ Related groups: McNemar's test
 
 - Nominal: [ANOVA](./pages/anova.md) or Kruskal-Wallis test
 
-- Ordinal: Jonckheere-Terpstra test or Wilcoxon rank-sum test
+- Ordinal: Jonckheere-Terpstra test or [Wilcoxon rank-sum test](./pages/wilcoxon.md)
 
 # Is the research question focused on testing the difference between two dependent proportions or percentages?
 
