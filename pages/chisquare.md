@@ -10,8 +10,8 @@ For this version of the chi-square test, the count data between two groups is co
 For example, if you wanted to determine if taking calculus helped students achieve A's in physics the sample would be students in a physics class and the categories would be "A in physics (Y/N)" and "Taken calculus (Y/N)".
 The frequencies between the groups could then be compared.
 
-The null hypothesis for the chi-square test for indpendence is that the samples are independent.
-The the alternative hypothesis for the chi-square test for indpendence is that the samples are NOT independent.
+The ***null hypothesis*** for the chi-square test for indpendence is that the samples are independent.
+The ***the alternative hypothesis*** for the chi-square test for indpendence is that the samples are NOT independent.
 
 ### Chi-square test for Goodness-of-fit
 
@@ -49,14 +49,14 @@ To conduct a chi-square test you will need arrange your count data in a 2 x 2 (o
 - P-value: indicates if the variables have a statistically significant association.
   - P-value < 0.05 indicates the variables have a statistically significant association (Reject the null hypothesis).
   - P-value > 0.05 indicates that you cannot conclude that the variables are associated (Fail to reject the null hypothesis).
-  
+
 ### Chi-square test for Goodness-of-fit:
 
 - degrees of freedom: (sample size - 1) the number of values that have the freedom to vary in the dataset.
 - P-value: indicates if the variables have a statistically significant association.
   - P-value < 0.05 indicates the samples data does not match the expected distribution (Reject the null hypothesis).
   - P-value > 0.05 indicates that you cannot conclude that not your sample does not match the expected distribution (Fail to reject the null hypothesis).
-  
+
 ## Visualizing the results
 
 Just because you ran the analysis in JMP does not mean you have to use JMP to visualize your results. As long as you have a statistically significant result you can generate the plots however you would like (e.g. Excel, Google Sheets, R, Python).

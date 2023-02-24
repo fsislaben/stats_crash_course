@@ -4,8 +4,8 @@ A statistical test used to determine if there is a significant difference betwee
 Typically, the data in question follows a normal distribution with an unknown variance.
 Commonly, a T-test is used to determine if a particular treatment has an impact on a population of interest.
 
-The null hypothesis of a T-test is that the means between the two groups are the same.
-The alternative hypothesis is that the means between two groups are different.
+The ***null hypothesis*** of a T-test is that the means between the two groups are the same.
+The ***alternative hypothesis*** is that the means between two groups are different.
 
 An important point to keep in mind is the whether you intend on using a one-tailed or two-tailed T-test.
 A one-tailed T-test looks for either a directional (increase or decrease) change in the mean while a two tailed T-test just looks for a change (could be an increase OR a decrease).

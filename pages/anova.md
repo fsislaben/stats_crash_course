@@ -2,8 +2,8 @@
 The ANOVA (Analysis of Variance) separates observed variance data into different components to use for additional tests.
 The ANOVA allows a comparison of more than two groups at the same time to determine whether a relationship exists between them.
 
-The null hypothesis is that there is no difference between the tested groups.
-The alternative hypothesis is that there is a difference between the tested groups.
+The ***null hypothesis*** is that there is no difference between the tested groups.
+The ***alternative hypothesis*** is that there is a difference between the tested groups.
 
 NOTE: Using an ANOVA is just the first step of this analysis. Following a significant result from an ANOVA, a post-hoc test, like a Tukey test, should be performed.
 
@@ -24,6 +24,6 @@ The ANOVA will produce the following values. I have provided a brief description
 
 ## Post hoc test
 
-Following the recovery of a statistically significant P-value from an ANOVA, a Tukey test should be performed to determine which of the groups are statistically different from each other. 
+Following the recovery of a statistically significant P-value from an ANOVA, a Tukey test should be performed to determine which of the groups are statistically different from each other.
 The Tukey test does multiple pairwise comparisons between the means of each group.
 This will tell you which groups within the dataset contain statistically different means.
