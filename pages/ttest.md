@@ -10,6 +10,33 @@ The alternative hypothesis is that the means between two groups are different.
 An important point to keep in mind is the whether you intend on using a one-tailed or two-tailed T-test.
 A one-tailed T-test looks for either a directional (increase or decrease) change in the mean while a two tailed T-test just looks for a change (could be an increase OR a decrease).
 
+Finally, the type of T-test you intend to use is extremely important and basically boils down to whether your two datasets have the same variance.
+
+### Student's T-test
+
+Then two groups are sampled from populations that are normally distributed and the variance between the populations are the same.
+This is typically a very risky assumption to make BUT if you are sure that the variance between the populations are the same you can go ahead and use the Student's T-test.
+
+### Welch's T-test
+
+Then two groups are sampled from populations that are normally distributed and the variance between the populations are NOT the same.
+I would assume that ~ 9/10 times you would be safer off using the Welch's T-test.
+
+### Which T-test to use?
+
+In fact, as a general rule of thumb is your default choice for conducting a T-test is to automatically opt to use the Welch's T-test.
+If you really want ignore this warning and for some reason actually choose to use the Student's T-test, you might as well run the Welch's T-test in parallel.
+If the results between the two tests are the same, congratulations, you got lucky but if the results are different, trust the results from the Welch's T-test.
+
+Here are some pointers when setting up a T-test using different tools.
+- Excel
+  - Student's T-test: "T-test: Two-Sample Assuming Equal Variances"
+  - Welch's T-test: "T-test: Two-Sample Assuming Unequal Variances"
+- R
+  - All T-test will be run as Welch's T-test
+- JMP:
+  - Two Sample t Test (assuming unequal population variances)
+
 ## Values needed to conduct a T-test
 
 To conduct a T-test using JMP, Excel, or R, you will need your data points recorded in two columns; one column for each treatment.
