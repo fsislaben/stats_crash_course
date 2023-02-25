@@ -5,6 +5,7 @@ Typically, the data in question follows a normal distribution with an unknown va
 Commonly, a T-test is used to determine if a particular treatment has an impact on a population of interest.
 
 The ***null hypothesis*** of a T-test is that the means between the two groups are the same.
+
 The ***alternative hypothesis*** is that the means between two groups are different.
 
 An important point to keep in mind is the whether you intend on using a one-tailed or two-tailed T-test.

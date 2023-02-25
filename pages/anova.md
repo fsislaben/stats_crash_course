@@ -3,6 +3,7 @@ The ANOVA (Analysis of Variance) separates observed variance data into different
 The ANOVA allows a comparison of more than two groups at the same time to determine whether a relationship exists between them.
 
 The ***null hypothesis*** is that there is no difference between the tested groups.
+
 The ***alternative hypothesis*** is that there is a difference between the tested groups.
 
 NOTE: Using an ANOVA is just the first step of this analysis. Following a significant result from an ANOVA, a post-hoc test, like a Tukey test, should be performed.

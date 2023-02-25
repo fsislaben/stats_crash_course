@@ -14,6 +14,7 @@ Additionally, there are some important assumptions when choosing to use a paired
 - There should be no extreme outliers in the differences.
 
 The ***null hypothesis*** of a T-test is that the means between the two groups are the same.
+
 The ***alternative hypothesis*** of a T-test is that the means between two groups are different.
 
 An important point to keep in mind is the whether you intend on using a one-tailed or two-tailed T-test.

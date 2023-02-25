@@ -11,6 +11,7 @@ For example, if you wanted to determine if taking calculus helped students achie
 The frequencies between the groups could then be compared.
 
 The ***null hypothesis*** for the chi-square test for indpendence is that the samples are independent.
+
 The ***the alternative hypothesis*** for the chi-square test for indpendence is that the samples are NOT independent.
 
 ### Chi-square test for Goodness-of-fit

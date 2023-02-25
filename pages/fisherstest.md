@@ -6,6 +6,7 @@ The Fisher's exact test can only be used in a 2 x 2 contingency table.
 If multiple catagories are being evaluated, pairwise comparisons between the catagories must be made.
 
 The ***null hypothesis*** for the Fisher's exact this that the variables are independent.
+
 The ***alternative hypothesis*** for the Fisher's exact test is that the variables are NOT independent.
 
 ## Values needed to conduct a Fisher's exact test
