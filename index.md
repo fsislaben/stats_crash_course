@@ -4,6 +4,12 @@ Below are guidelines that should be followed to determine what sort of statistic
 
 [Click here](./pages/example_logic.md) to see an example of how to use this website to aid you through the through process of identifying the type of data you have and what statistical analysis you should choose based on the assumptions you are making about your data.
 
+[Click here](./pages/p-value.md) to understand how to interpret a p-value.
+This is extremely an extremely important concept to understand so you do not over-interpret what the test statistic is reporting.
+
+[Click here](./pages/parametric.md) to understand the difference between parametric and nonparametric statistics.
+Understanding the difference between them is key to understanding when to use one or the other.
+
 # Is the research question focused on comparing the means of two or more groups?
 
 ## Are the groups independent or related?

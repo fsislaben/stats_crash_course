@@ -39,9 +39,9 @@ We recover a p-value of < 0.05.
 Conceptually, what does this mean?
 Bear with me here because the following explanation is going to get a little abstract.
 Our null hypothesis in this cases is the representation of an imaginary population that is normally distributed that contains both of our samples.
-If we were to randomly draw samples from this imaginary population, what are the odds that we recovered both of our samples the way we recovered them in our actually sampling.
+If we were to randomly draw samples from this imaginary population, what are the odds that we recovered both of our samples the way we recovered them in our actually sampling?
 
-In other words, is there a good chance that that we could have recovered this exact sampling scheme if they both existed in a the same normally distributed population?
+In other words, is there a good chance that that we could have recovered this exact sampling scheme if they both existed in the same normally distributed population?
 
 In this case, the answer to that question is: there is a < 5% chance that we could have recovered our sampling scheme if both of our chihuahua groups existed in the same, normally distributed, population.
 
