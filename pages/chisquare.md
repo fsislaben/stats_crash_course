@@ -10,9 +10,9 @@ For this version of the chi-square test, the count data between two groups is co
 For example, if you wanted to determine if taking calculus helped students achieve A's in physics the sample would be students in a physics class and the categories would be "A in physics (Y/N)" and "Taken calculus (Y/N)".
 The frequencies between the groups could then be compared.
 
-The ***null hypothesis*** for the chi-square test for indpendence is that the samples are independent.
+The ***null hypothesis*** for the chi-square test for independence is that the samples are independent.
 
-The ***the alternative hypothesis*** for the chi-square test for indpendence is that the samples are NOT independent.
+The ***the alternative hypothesis*** for the chi-square test for independence is that the samples are NOT independent.
 
 ### Chi-square test for Goodness-of-fit
 
@@ -20,8 +20,9 @@ For this version of the chi-square test, the count data for one group is compare
 For example, if you wanted to test if a coin is fair, you would flip a coin 100 times and record H/T.
 The frequencies of H/T for your tosses could then be compared to the expected frequencies of 50/50.
 
-The null hypothesis for the chi-square test for Goodness-of-fit is that the sample data matches the expected distribution.
-The the alternative hypothesis for the chi-square test for indpendence is that the sample does NOT match the expected distribution.
+The ***null hypothesis*** for the chi-square test for Goodness-of-fit is that the sample data matches the expected distribution.
+
+The the ***alternative hypothesis*** for the chi-square test for independence is that the sample does NOT match the expected distribution.
 
 ## Values needed to conduct a chi-square test
 
