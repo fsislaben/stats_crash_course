@@ -24,7 +24,7 @@ This means the probability of recovering the results we did under the assumption
 
 Therefore we can reject the null hypothesis and conclude that our data does not match the expected distribution.
 
-# P-values and dogs:
+## P-values and dogs:
 Now, let's try a more complex example.
 Suppose I have the following research question: "Do chihuahuas that eat beef weigh the same as chihuahuas that eat chicken, assuming they are consuming the same amount of the respective protein?"
 
