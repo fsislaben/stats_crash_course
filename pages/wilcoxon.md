@@ -22,7 +22,7 @@ Then conduct the analysis by specifying which column corresponds to which group.
 
 ## Values needed to conduct a Wilcoxon test
 
-### Here is an example of how you data should be formatted for a Wilcoxon rank sum test:
+### Here is an example of how your data should be formatted for a Wilcoxon rank sum test:
 
 | Height Group 1 (inches) | Height Group 2 (inches)  |
 | ----------------------- | ------------------------ |
@@ -36,7 +36,7 @@ Then conduct the analysis by specifying which column corresponds to which group.
 | 78                      | 59                       |
 | 71                      | 51                       |
 
-### Here is an example of how you data should be formatted for a Wilcoxon signed rank test:
+### Here is an example of how your data should be formatted for a Wilcoxon signed rank test:
 
 | Subject No. | Reaction Time pre (ms) | Reaction Time post (ms)  |
 | ----------- | ---------------------- | ------------------------ |
@@ -59,6 +59,6 @@ The Wilcoxon test will produce the following values. I have provided a brief des
   - P-value > 0.05 indicates that you cannot conclude that means of each group are different from each other (Fail to reject the null hypothesis)
 
 ## Visualizing the results
-Just because you ran the analysis in JMP does not mean you have to use JMP to visualize your results. As long as you have a statistically significant result you can generate the plots however you would like (e.g. Excel, Google Sheets, R, Python).
+Just because you ran the analysis in JMP does not mean you have to use JMP to visualize your results. As long as you have a statistically significant result you can generate the plots however you would like (e.g., Excel, Google Sheets, R, Python).
 All you need to do is add an annotation to the figure that the P-value was < 0.05.A box-and-whisker plot would be a good way of visualizing the results of a Wilcoxon test.
 The box-and-whisker plot would present both the spread of the data while also incorporating error bars associated with the mean calculation.

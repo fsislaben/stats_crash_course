@@ -7,7 +7,7 @@ The data must be random, independent and drawn from a large(ish) pool (n > 10).
 ### Chi-square test for independence
 
 For this version of the chi-square test, the count data between two groups is compared to see if the counts are independent of each other based on their categorical assignment.
-For example, if you wanted to determine if taking calculus helped students achieve A's in physics the sample would be students in a physics class and the categories would be "A in physics (Y/N)" and "Taken calculus (Y/N)".
+For example, if you wanted to determine if taking calculus helped students achieve “A”s in physics the sample would be students in a physics class and the categories would be "A in physics (Y/N)" and "Taken calculus (Y/N)".
 The frequencies between the groups could then be compared.
 
 The ***null hypothesis*** for the chi-square test for independence is that the samples are independent.
@@ -61,7 +61,7 @@ To conduct a chi-square test you will need arrange your count data in a 2 x 2 (o
 
 ## Visualizing the results
 
-Just because you ran the analysis in JMP does not mean you have to use JMP to visualize your results. As long as you have a statistically significant result you can generate the plots however you would like (e.g. Excel, Google Sheets, R, Python).
+Just because you ran the analysis in JMP does not mean you have to use JMP to visualize your results. As long as you have a statistically significant result you can generate the plots however you would like (e.g., Excel, Google Sheets, R, Python).
 All you need to do is add an annotation to the figure that the P-value was < 0.05.
 A good way to visualize the results of a chi-square test would be to a paired or grouped bar chart.
 These types of bar charts can clearly display the variation in counts vary between the relevant categories of interest.

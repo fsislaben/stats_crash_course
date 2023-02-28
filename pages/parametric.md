@@ -16,7 +16,7 @@ Or maybe we have a priori knowledge that the population we intend to sample is s
 So how do we cope when our intended population is not normally distributed?
 Well, we use statistics that are not parametric, aka nonparametric statistics.
 
-Nonparametric statistics does NOT assume anything about the distribution of the population being sampled.
+Nonparametric statistics do NOT assume anything about the distribution of the population being sampled.
 This means nonparametric statistics can be used if either if you population is normally distributed AND if your population is NOT normally distributed.
 
 So, why in the world would be every even consider using a parametric test if nonparametric tests are basically a catch-all?

@@ -5,7 +5,7 @@
 In this section I will outline the thought process I would like you to follow when using this website for guidance as well as the necessary items you need to have completed before you can effectively use this site.
 
 What you should have completed already:
-- A well defined research question.
+- A well-defined research question.
 - How you have collected (or intend to collect) your data.
 - Your variables.
 

@@ -24,4 +24,4 @@ In a normal distribution, 68% of values around found within +/- 1 standard devia
 In a normal distribution, 95% of values around found within +/- 2 standard deviation away from the mean.
 In a normal distribution, 99.7% of values around found within +/- 3 standard deviation away from the mean.
 
-Typically in statistics we use critical value that returns a 95% confidence interval meaning that +/- 2 standard deviations will account for 95% of naturally occurring variation within a normally distributed dataset.
+Typically, in statistics we use critical value that returns a 95% confidence interval meaning that +/- 2 standard deviations will account for 95% of naturally occurring variation within a normally distributed dataset.

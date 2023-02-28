@@ -1,9 +1,9 @@
 # Paired Samples T-test
 
-If you have arrived here you either know what you are looking for and I'm assuming you understand the basic concepts of the T-test.
+If you have arrived here, you either know what you are looking for and I'm assuming you understand the basic concepts of the T-test.
 If you do not have a clear understanding of what a T-test describes then please visit [this page](./pages/ttest.md).
 
-Now that you understand what a T-test is, a natural question you may have is what if I am in the situation where observations in one my samples can be paired with an observation in the other sample?
+Now that you understand what a T-test is, a natural question you may have is: what if I am in the situation where observations in one my samples can be paired with an observation in the other sample?
 Here are some examples of such situations:
 - Measurements taken on an individual before and after a particular treatment (performance before and after a training program)
 - Measurements taken under 2 different conditions (reaction time of an individual on two particular drugs)
@@ -26,7 +26,7 @@ To conduct a T-test using JMP, Excel, or R, you will need your data points recor
 The data for this analysis should be numeric.
 Then conduct the analysis by specifying which column corresponds to which group.
 
-Here is an example of how you data should be formatted:
+Here is an example of how your data should be formatted:
 
 | Subject No. | Reaction Time pre (ms) | Reaction Time post (ms)  |
 | ----------- | ---------------------- | ------------------------ |
@@ -52,7 +52,7 @@ The T-test will produce the following values. I have provided a brief descriptio
 
 ## Visualizing the results
 
-Just because you ran the analysis in JMP does not mean you have to use JMP to visualize your results. As long as you have a statistically significant result you can generate the plots however you would like (e.g. Excel, Google Sheets, R, Python).
+Just because you ran the analysis in JMP does not mean you have to use JMP to visualize your results. As long as you have a statistically significant result you can generate the plots however you would like (e.g., Excel, Google Sheets, R, Python).
 All you need to do is add an annotation to the figure that the P-value was < 0.05.
 A box-and-whisker plot would be a good way of visualizing the results of a T-test.
 The box-and-whisker plot would present both the spread of the data while also incorporating error bars associated with the mean calculation.
