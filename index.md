@@ -1,8 +1,14 @@
 ![](./IS_Logo_Stacked_CommunityScience.png)
 
 Below are guidelines that should be followed to determine what sort of statistical test should be used for a particular type of dataset.
+Before you jump into the decision tree part of this page, take a moment to read through the sections linked in the preface.
+These are important background tidbits that will be extremely useful when reading how a particular statistical test works.
+
+# Preface
 
 [Click here](./pages/example_logic.md) to see an example of how to use this website to aid you through the through process of identifying the type of data you have and what statistical analysis you should choose based on the assumptions you are making about your data.
+
+[Click here](./pages/normal_dist.md) to understand what a normal distribution is and why it is referenced so much.
 
 [Click here](./pages/p-value.md) to understand how to interpret a p-value.
 This is extremely an extremely important concept to understand so you do not over-interpret what the test statistic is reporting.
