@@ -26,7 +26,7 @@ Are the data normally distributed?
 
 -  Normally distributed: [t-test](./pages/ttest.md) or [ANOVA](./pages/anova.md)
 
--  Not normally distributed: [Mann-Whitney](./pages/manwhit.md) U test or Kruskal-Wallis test
+-  Not normally distributed: [Mann-Whitney U](./pages/manwhit.md) test or Kruskal-Wallis test
 
 Are the sample sizes equal or unequal?
 
