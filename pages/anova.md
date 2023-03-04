@@ -14,7 +14,7 @@ The data for this analysis should be numeric.
 If you have categorical data, make sure you transform them into numeric categories.
 Then conduct the analysis by specifying which column corresponds to which group.
 
-## Values recovered from an ANOVA
+## Values returned from an ANOVA
 
 The ANOVA will produce the following values. I have provided a brief description of how to interpret them.
 - P-value: the probability that the results from your sample occurred by random chance. Important note: the p-value does not indicate that the treatment is the CAUSE. All that it states is that the two means are significantly difference from each other.

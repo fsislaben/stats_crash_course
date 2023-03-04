@@ -41,7 +41,7 @@ Here is an example of how your data should be formatted:
 | Subject 9   | 171                    | 151                      |
 
 
-## Values recovered from a T-test
+## Values returned from a T-test
 
 The T-test will produce the following values. I have provided a brief description of how to interpret them.
 - degrees of freedom: (sample size - 1) the number of values that have the freedom to vary in the dataset.

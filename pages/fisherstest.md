@@ -18,7 +18,7 @@ To conduct a Fisher's exact test, you will need arrange your count data in a 2 x
 | Catagory 1 | 8       | 5       |
 | Catagory 2 | 3       | 9       |
 
-## Values recovered from a Fisher's exact test
+## Values returned from a Fisher's exact test
 
 - degrees of freedom: (sample size - 1) the number of values that have the freedom to vary in the dataset.
 - P-value: indicates if the variables have a statistically significant association.

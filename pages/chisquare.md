@@ -43,7 +43,7 @@ To conduct a chi-square test you will need arrange your count data in a 2 x 2 (o
 | Expected    | 50          | 50          |
 
 
-## Values recovered from a chi-square test
+## Values returned from a chi-square test
 
 ### Chi-square test for independence:
 

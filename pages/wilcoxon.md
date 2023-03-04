@@ -50,7 +50,7 @@ Then conduct the analysis by specifying which column corresponds to which group.
 | Subject 8   | 178                    | 159                      |
 | Subject 9   | 171                    | 151                      |
 
-## Values recovered from a Wilcoxon test
+## Values returned from a Wilcoxon test
 
 The Wilcoxon test will produce the following values. I have provided a brief description of how to interpret them.
 - Z-score: the number of standard deviations away from the mean out value of interest is.

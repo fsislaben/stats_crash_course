@@ -4,6 +4,12 @@ P-values are one of the most important values recovered and reported following a
 I would like to clarify immediately that the p-value is NOT the probability that our hypothesis is correct but rather the probability that the sample in question was recovered from a population described under the null hypothesis.
 Basically, if we assume the null hypothesis is true, how consistent is your data with the null hypothesis?
 
+An important thing to not when discussing p-values in regard to your null and alternative hypotheses is that ***you can never accept or reject your alternative hypothesis you can only accept or reject your null hypothesis***
+
+If your test returns a p-value of < 0.05 you say "I can reject the null hypothesis".
+
+If your test returns a p-value of > 0.05 you say "I fail to reject the null hypothesis"  
+
 Ok that sounds good and all, but what does this actually mean in practice?
 
 # P-value interpretation examples
@@ -39,9 +45,7 @@ We recover a p-value of < 0.05.
 Conceptually, what does this mean?
 Bear with me here because the following explanation is going to get a little abstract.
 Our null hypothesis in this case is the representation of an imaginary population that is normally distributed that contains both of our samples.
-If we were to randomly draw samples from this imaginary population, what are the odds that we recovered both of our samples the way we recovered them in our actually sampling?
-
-In other words, is there a good chance that that we could have recovered this exact sampling scheme if they both existed in the same normally distributed population?
+If we were to randomly draw samples from this imaginary, normally distributed population, what are the odds that we recovered our chicken (or beef) sample set the way we recovered them in our actual sampling?
 
 In this case, the answer to that question is: there is a < 5% chance that we could have recovered our sampling scheme if both of our chihuahua groups existed in the same, normally distributed, population.
 

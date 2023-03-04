@@ -1,8 +1,8 @@
 # Parametric vs Non Parametric
 
-***TL;DR - parametric statistics are are based on the assumption that the population(s) follows a normal distribution.
+***TL;DR - parametric statistics are are based on the assumption that the population(s) in question follows a normal distribution.
 Nonparametric statistics are NOT based on the assumption that the population(s) in question falls under a normal distribution.
-For each parametric statistical test, there is usually a nonparametric alternative: chi-square test of independence (parametric) vs Fisher's exact test (nonparametric).****
+For each parametric statistical test, there is usually a nonparametric alternative: chi-square test of independence (parametric) vs Fisher's exact test (nonparametric).***
 
 Now for those of you that do actually want to read a little bit, here we go.
 
