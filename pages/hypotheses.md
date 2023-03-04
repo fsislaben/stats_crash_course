@@ -1,6 +1,6 @@
 # What are statistical hypotheses?
 
-If you have had any interactions with statistics or statistical test before something you have probably come across are the terms "null hypothesis" and "alternative hypothesis".
+If you have had any interactions with statistics or statistical test before something you have probably come across are the terms ***"null hypothesis (H0)"*** and ***"alternative hypothesis (H1)"***.
 The idea of hypothesis testing lies at the core of the scientific method and is a useful tool to help you quantify your data in a way that can either support (or not support) the difference that you expect to see between two (or more) sample sets.
 
 Classically, the null and alternative hypotheses are two mutually exclusive statements about a population.
@@ -20,4 +20,4 @@ The slight difference is wording makes all the difference in the world.
 When you have a p-value < 0.05 and you reject your null hypotheses you are merely stating that you have enough evidence to say that the assumption that the two populations are indistinguishable is not the case.
 When you have a p-value > 0.05 and you fail to reject your null hypothesis you are merely stating that you DO NOT have enough evidence to say that the two populations are distinguishable.
 
-During your project you are trying your darndest to gain enough evidence to statistically claim that two (or more) populations are different.
+During your project you are trying your darndest to gain enough evidence to statistically claim that two (or more) populations are different and that the treatment you have isolated MAY have contributed to the difference you observe.
