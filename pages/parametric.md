@@ -32,3 +32,4 @@ Parametric statistics are also more forgiving when the variance/spread of the gr
 | 2-sample T-test | Wilcoxon rank-sum test    |
 | Paired T-test   | Wilcoxon signed-rank test |
 | ANOVA           | Kruskal Wallis test       |
+| Chi-square test | Fisher's Exact test       |
