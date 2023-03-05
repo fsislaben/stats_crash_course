@@ -4,11 +4,11 @@ P-values are one of the most important values recovered and reported following a
 I would like to clarify immediately that the p-value is NOT the probability that our hypothesis is correct but rather the probability that the sample in question was recovered from a population described under the null hypothesis.
 Basically, if we assume the null hypothesis is true, how consistent is your data with the null hypothesis?
 
-An important thing to not when discussing p-values in regard to your null and alternative hypotheses is that ***you can never accept or reject your alternative hypothesis you can only accept or reject your null hypothesis***
+An important thing to remember when discussing p-values in regard to your null and alternative hypotheses is that ***you can never accept or reject your alternative hypothesis; you can only reject or fail to reject your null hypothesis.***
 
 If your test returns a p-value of < 0.05 you say "I can reject the null hypothesis".
 
-If your test returns a p-value of > 0.05 you say "I fail to reject the null hypothesis"  
+If your test returns a p-value of > 0.05 you say "I fail to reject the null hypothesis".
 
 Ok that sounds good and all, but what does this actually mean in practice?
 

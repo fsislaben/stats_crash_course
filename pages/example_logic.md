@@ -75,9 +75,9 @@ Paired groups: McNemar’s test
 
 ### The final decision
 
-Now that I have made the assumptions that my data contains two independent groups and the data are most likely normally distributed I have narrowed it down to two options: a T-test or an ANOVA. I then take a look at the pages for both and realize that the ANOVA would be useful for datasets containing > two categories. However, my dataset only contains two categories (automatic vs manual transmission) therefore the T-test would be a better fit.
+Now that I have made the assumptions that my data contains two independent groups and the data are most likely normally distributed, I have narrowed it down to two options: a T-test or an ANOVA. I then take a look at the pages for both and realize that the ANOVA would be useful for datasets containing > two categories. However, my dataset only contains two categories (automatic vs manual transmission) therefore the T-test would be a better fit.
 
-I would then choose my analysis tool (JMP, Excel, Sheets, or R ) and run the analysis.
+I would then choose my analysis tool (JMP, Excel, Sheets, or R) and run the analysis.
 
 # Example analysis
 

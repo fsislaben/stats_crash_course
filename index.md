@@ -10,7 +10,7 @@ These are important background tidbits that will be extremely useful when readin
 
 [Click here](./pages/normal_dist.md) to understand what a ***normal distribution*** is and why it is referenced so much.
 
-[Click here](./pages/hypotheses.md) to understand the difference between the ***null and alternative*** hypotheses.
+[Click here](./pages/hypotheses.md) to understand the difference between the ***null and alternative hypotheses.***
 
 [Click here](./pages/p-value.md) to understand how to ***interpret a p-value.***
 This is extremely an extremely important concept to understand so you do not over-interpret what the test statistic is reporting.
