@@ -12,15 +12,13 @@ From this data, each person provides exactly one response making their answer mu
 
 Categorical data can be further broken down into ordinal and nominal data.
 
-## Ordinal data
+- ***Ordinal data***
+  - The easiest way to think about ordinal data is that is "score data".
+  - If I asked you "On a scale of 1-10, how much do you like using this website?" Your response would be classified as ordinal data.
 
-The easiest way to think about ordinal data is that is "score data".
-If I asked you "On a scale of 1-10, how much do you like using this website?" Your response would be classified as ordinal data.
-
-## Nominal data
-
-Nominal data is just name data.
-The example given above about the drinks ordered from a boba shop is an example of nominal data.
+- ***Nominal data***
+  - Nominal data is just name data.
+  - The example given above about the drinks ordered from a boba shop is an example of nominal data.
 
 # Numerical data
 
@@ -31,23 +29,19 @@ If I measure the time it takes for a blade of grass to grow 1 mm; that would als
 
  Much like categorial data, numerical data can also occur in two forms: continuous and discrete data.
 
-## Discrete data
+- ***Discrete data***
+  - The best way to describe discrete data is to think of it as countable data, like, "How dogs did I see at the park today?"
+  - 99.9% of the time you are going to respond with a whole number (in the case where you do not, that situation is not  going to be solved with some basic statistics).
 
-The best way to describe discrete data is to think of it as countable data, like, "How dogs did I see at the park today?"
-99.9% of the time you are going to respond with a whole number (in the case where you do not, that situation is not going to be solved with some basic statistics).
-
-## Continuous data
-
-Where discrete data is typically an integer, count data is a measurement where the value can be any real number.
-That number can be 1 or 1.23 or 1.234556789.
+- ***Continuous data***
+  - Where discrete data is typically an integer, count data is a measurement where the value can be any real number.
+  - That number can be 1 or 1.23 or 1.234556789.
 
 Within continuous data there are two additional categories: interval and ratio data.
 
-### Interval data
+- ***Interval data***
+  - Data that can be measured on a scale like the length of one's left foot or the mass of one's right thumb.
 
-Data that can be measured on a scale like the length of one's left foot or the mass of one's right thumb.
-
-### Ratio data
-
-Data that is measured relative to a "true zero".
-For example, how much above or below is your population's body temperature compared to the normal body temperature of 98.6 degrees fahrenheit. 
+- ***Ratio data***
+  - Data that is measured relative to a "true zero".
+  - For example, how much above or below is your population's body temperature compared to the normal body temperature of 98.6 degrees fahrenheit.
