@@ -17,8 +17,8 @@ You can then create a contingency table with your observations and perform a McN
 | No pain (before) | 50           | 67               |
 
 There are 3 assumptions for the McNemar Test:
-1) There must be one nominal variable with with two categories (yes/no, heads/tails, pass/fail)
-2) The two groups in your dependent variable must be mutually exclusive; participants cannot appear in more than 1 groups
-3) The sample must be random
+- There must be one nominal variable with with two categories (yes/no, heads/tails, pass/fail)
+- The two groups in your dependent variable must be mutually exclusive; participants cannot appear in more than 1 groups
+- The sample must be random
 
 If your data does meet these criteria you may want to consider using a [chi-square](../pages/chisquare.md)
