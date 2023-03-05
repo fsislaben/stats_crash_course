@@ -30,7 +30,7 @@ Are the data normally distributed?
 
 -  Normally distributed: [t-test](./pages/ttest.md) or [ANOVA](./pages/anova.md)
 
--  Not normally distributed: [Mann-Whitney U](./pages/manwhit.md) test or Kruskal-Wallis test
+-  Not normally distributed: [Mann-Whitney U test](./pages/manwhit.md) or [Kruskal-Wallis test](./pages/kruskal.md)
 
 Are the sample sizes equal or unequal?
 
@@ -50,7 +50,7 @@ Are the data normally distributed?
 
 Independent groups: [chi-squared test](./pages/chisquare.md) or [Fisher's exact test](./pages/fisherstest.md)
 
-Paired groups: McNemar's test
+Paired groups: [McNemar's test](./pages/mcnemar.md)
 
 # Is the research question focused on comparing proportions or percentages between two or more groups?
 
@@ -64,7 +64,7 @@ Are the sample sizes large (at least 10 in each group)?
 
 - No: [Fisher's exact test](./pages/fisherstest.md)
 
-Related groups: McNemar's test
+Related groups: [McNemar's test](./pages/mcnemar.md)
 
 # Is the research question focused on determining the relationship between two continuous variables?
 
@@ -78,10 +78,10 @@ Related groups: McNemar's test
 
 ## Is the categorical variable nominal or ordinal?
 
-- Nominal: [ANOVA](./pages/anova.md) or Kruskal-Wallis test
+- Nominal: [ANOVA](./pages/anova.md) or [Kruskal-Wallis test](./pages/kruskal.md)
 
 - Ordinal: Jonckheere-Terpstra test or [Wilcoxon rank-sum test](./pages/wilcoxon.md)
 
 # Is the research question focused on testing the difference between two dependent proportions or percentages?
 
-- McNemar's test
+- [McNemar's test](./pages/mcnemar.md)
