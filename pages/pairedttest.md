@@ -1,7 +1,7 @@
 # Paired Samples T-test
 
 If you have arrived here, you either know what you are looking for and I'm assuming you understand the basic concepts of the T-test.
-If you do not have a clear understanding of what a T-test describes then please visit [this page](./pages/ttest.md).
+If you do not have a clear understanding of what a T-test describes then please visit [this page](../pages/ttest.md).
 
 Now that you understand what a T-test is, a natural question you may have is: what if I am in the situation where observations in one my samples can be paired with an observation in the other sample?
 Here are some examples of such situations:

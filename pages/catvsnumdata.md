@@ -35,7 +35,7 @@ If I measure the time it takes for a blade of grass to grow 1 mm; that would als
 
 - ***Continuous data***
   - Where discrete data is typically an integer, count data is a measurement where the value can be any real number.
-  - That number can be 1 or 1.23 or 1.234556789.
+  - That number can be 1 or 1.23 or 1.23456789.
 
 Within continuous data there are two additional categories: interval and ratio data.
 
