@@ -60,7 +60,7 @@ Paired groups: [McNemar's test](./pages/mcnemar.md)
 
 Are the sample sizes large (at least 10 in each group)?
 
-- Yes: z-test or [chi-squared test](./pages/chisquare.md)
+- Yes: [z-test](./pages/ztest.md) or [chi-squared test](./pages/chisquare.md)
 
 - No: [Fisher's exact test](./pages/fisherstest.md)
 

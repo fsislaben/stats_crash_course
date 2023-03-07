@@ -4,6 +4,10 @@ The McNemar test is a nonparametric test for paired [nominal data](../pages/catv
 What this basically means is that you are finding a change in proportion between paired data.
 The McNemar test can also be considered the nonparametric equivalent to the paired T-test.
 
+The ***null hypothesis*** of a McNemar test is that the proportion between the two groups are the same.
+
+The ***alternative hypothesis*** of a McNemar test is that the proportion between two groups are different.
+
 An example of when to use the McNemar test is presented below:
 
 Say you wanted to determine if a particular drug helps reduce the amount of joint pain experienced by an arthritic individual.
@@ -11,7 +15,7 @@ You record if your group is experiencing pain before and after administering the
 
 You can then create a contingency table with your observations and perform a McNemar test.
 
-|                  | Pain (after) | No paint (after) |
+|                  | Pain (after) | No pain (after) |
 | ---------------- | ------------ | ---------------- |
 | Pain (before)    | 30           | 45               |
 | No pain (before) | 50           | 67               |

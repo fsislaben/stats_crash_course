@@ -25,7 +25,7 @@ I would assume that ~ 9/10 times you would be safer off using the Welch's T-test
 
 ### Which T-test to use?
 
-In fact, as a general rule of thumb, your default choice for conducting a T-test should be the Welch's T-test.
+As a general rule of thumb, your default choice for conducting a T-test should be the Welch's T-test.
 If, for some reason, you really want ignore this warning and choose to use the Student's T-test, you might as well run the Welch's T-test in parallel.
 If the results between the two tests are the same, congratulations, you got lucky but if the results are different, trust the results from the Welch's T-test.
 
