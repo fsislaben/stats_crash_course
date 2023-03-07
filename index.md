@@ -23,10 +23,10 @@ Understanding the difference between them is key to understanding when to use on
 ## Tests covered in this website
 
 Parametric:
-- [ANOVA](./pages/anova.md)]
+- [ANOVA](./pages/anova.md)
 - [Chi-squared test](./pages/chisquare.md)
 - [Paired samples T-test](./pages/pairedttest.md)
-- Pearson's correlation
+- [Pearson's correlation](./pages/pearsons.md)
 - Repeated measures ANOVA
 - Spearman's rank correlation
 - [T-test](./pages/ttest.md)
