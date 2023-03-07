@@ -20,6 +20,29 @@ Understanding the difference between them is key to understanding when to use on
 
 [Click here](./pages/catvsnumdata.md) to understand the difference between ***categorical and numeric data.***
 
+## Tests covered in this website
+
+Parametric:
+- [ANOVA](./pages/anova.md)]
+- [Chi-squared test](./pages/chisquare.md)
+- [Paired samples T-test](./pages/pairedttest.md)
+- Pearson's correlation
+- Repeated measures ANOVA
+- Spearman's rank correlation
+- [T-test](./pages/ttest.md)
+- [Z-test](./pages/ztest.md)
+
+Nonparametric:
+- [Fisher's exact test](./pages/fisherstest.md)
+- Friedman test
+- Jonckheere-Terpstra test
+- Kendall's tau
+- Kendall's W
+- [Kruskal-Wallis test](./kruskal.md)
+- [Mann-Whitney U test](./pages/manwhit.md)
+- [McNemar's test](./mcnemar.md)
+- [Wilcoxon signed-rank test](./pages/wilcoxon.md)
+
 # Is the research question focused on comparing the means of two or more groups?
 
 ## Are the groups independent or related?
