@@ -47,3 +47,15 @@ You end up with data that looks like the following:
 | 8            | 4                         |
 | 9            | 5                         |
 | 10           | 5                         |
+
+The Spearman's correlation coefficient (rho) comes out to be rho = 1.0, which is a perfect positive correlation.
+Something to understand here is that rho does not mean a strong linear relationship.
+A high rho just indicates that there is a positive correlation; nothing about the nature of that positive correlation.
+
+# Visualizing the results
+
+Just because you ran the analysis in JMP does not mean you have to use JMP to visualize your results.
+As long as you have a statistically significant result you can generate the plots however you would like (e.g., Excel, Google Sheets, R, Python).
+All you need to do is add an annotation to the figure that has the rho value displayed.
+A scatter plot would be a good way of visualizing the results of a Spearman's correlation test.
+The scatter plot would present both the spread of the data while also incorporating, throwing a line of best fit in the mix may also help the audience see the relationship.
