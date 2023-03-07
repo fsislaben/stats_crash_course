@@ -28,7 +28,6 @@ Parametric:
 - [Paired samples T-test](./pages/pairedttest.md)
 - [Pearson's correlation](./pages/pearsons.md)
 - Repeated measures ANOVA
-- Spearman's rank correlation
 - [T-test](./pages/ttest.md)
 - [Z-test](./pages/ztest.md)
 
@@ -41,6 +40,7 @@ Nonparametric:
 - [Kruskal-Wallis test](./kruskal.md)
 - [Mann-Whitney U test](./pages/manwhit.md)
 - [McNemar's test](./mcnemar.md)
+- [Spearman's rank correlation](./pages/spearmans.md)
 - [Wilcoxon signed-rank test](./pages/wilcoxon.md)
 
 # Is the research question focused on comparing the means of two or more groups?
@@ -93,7 +93,7 @@ Related groups: [McNemar's test](./pages/mcnemar.md)
 
 ## Is the relationship linear or non-linear?
 
-- Linear relationship: Pearson's correlation or Spearman's rank correlation
+- Linear relationship: [Pearson's correlation](./pages/pearsons.md) or Spearman's rank correlation
 
 - Non-linear relationship: non-parametric tests (e.g. Kendall's tau or Kendall's W)
 

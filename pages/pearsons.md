@@ -1,13 +1,6 @@
-
-
-
-
-
-
-
 # Pearson's correlation
 
-Pearson's correlation, also known as the Pearson correlation coefficient, is a statistical measure that determines the strength and direction of a linear relationship between two continuous variables.
+Pearson's correlation, also known as the Pearson correlation coefficient, is a statistical measure that determines the ***strength and direction of a linear relationship*** between two continuous variables.
 It is represented by the symbol "r".
 
 ***Do not confuse this "r" with "r^2"; these are different values.***
@@ -29,21 +22,21 @@ As a general rule of thumb use the following cut offs to determine the strength 
 
 # Example of when and how to use a Pearson's correlation
 
-Let's say you want to know if there is a correlation between the number of cups of coffee you drink per day and your productivity at work.
-You start tracking your coffee intake and productivity level (on a scale of 1-10) for a month.
+Let's say you want to know if there is a correlation between the number of cups of coffee you drink per day and words per minute when typing.
+You start tracking your coffee intake and words per minute for 10 days.
 
-| Cups of Coffee | Productivity |
-| -------------- | ------------ |
-| 1              | 3            |
-| 2              | 4            |
-| 3              | 5            |
-| 4              | 6            |
-| 3              | 5            |
-| 2              | 2            |
-| 6              | 8            |
-| 5              | 7            |
-| 6              | 8            |
-| 7              | 9            |
+| Cups of Coffee | Words per Min |
+| -------------- | ------------- |
+| 1              | 80            |
+| 2              | 90            |
+| 3              | 100           |
+| 4              | 110           |
+| 3              | 100           |
+| 2              | 90            |
+| 6              | 130           |
+| 5              | 120           |
+| 6              | 130           |
+| 7              | 140           |
 
 The Pearson's correlation comes out to be r = 1.0, which is a perfect positive correlation.
 This means that as the number of cups of coffee you drink per day increases, your productivity level also increases.
