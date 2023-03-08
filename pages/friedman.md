@@ -22,6 +22,7 @@ You have surveyed 10 music fans and asked them to rate their preference for each
 You want to know if there is a significant difference in the mean preference for each genre, so you decide to use the Friedman test.
 
 Your data should look something like this:
+
 |           | Hiphop | Country | EDM |
 |-----------|--------|---------|-----|
 | Person 1  | 6      | 3       | 8   |

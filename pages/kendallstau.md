@@ -8,7 +8,7 @@ A concordant pair is one in which the ranks of both variables agree (i.e., if on
 
 The value of Kendall's tau can mathematically range from -1 to +1.
 However, practically speaking this negative sign does not mean much.
-A tau of 0 indicates no relationship while a tau of 1 indicates a perfect relationship.
+A tau of 0 indicates no relationship while a tau of ± 1 indicates a perfect relationship.
 
 Kendall's tau is particularly useful when analyzing data that are ranked or ordered, such as when comparing the preferences of individuals for different products or when studying the rankings of different sports teams over a season.
 
