@@ -48,5 +48,5 @@ This will tell you which groups within the dataset contain statistically differe
 
 Just because you ran the analysis in JMP does not mean you have to use JMP to visualize your results. As long as you have a statistically significant result you can generate the plots however you would like (e.g., Excel, Google Sheets, R, Python).
 All you need to do is add an annotation to the figure that specify which groups have a p-value was < 0.05.
-A box-and-whisker plot would be a good way of visualizing the results of a Kruskal-Wallis test.
+A box-and-whisker plot would be a good way of visualizing the results of an ANOVA.
 The box-and-whisker plot would present both the spread of the data while also incorporating error bars/confidence intervals.

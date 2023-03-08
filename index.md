@@ -2,7 +2,7 @@
 
 Below are guidelines that should be followed to determine what sort of statistical test should be used for a particular type of dataset.
 Before you jump into the decision tree part of this page, take a moment to read through the sections linked in the preface.
-These are important background tidbits that will be extremely useful when reading how a particular statistical test works.
+These are important background tidbits that will be extremely useful when understanding how a particular statistical test works.
 
 # Preface
 
@@ -41,6 +41,7 @@ Nonparametric:
 - [Mann-Whitney U test](./pages/manwhit.md)
 - [McNemar's test](./pages/mcnemar.md)
 - [Spearman's rank correlation](./pages/spearmans.md)
+- [Wilcoxon rank-sum test](./pages/wilcoxon.md)
 - [Wilcoxon signed-rank test](./pages/wilcoxon.md)
 
 # Is the research question focused on comparing the means of two or more groups?
