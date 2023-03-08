@@ -6,7 +6,7 @@ These are important background tidbits that will be extremely useful when unders
 
 # Preface
 
-[Click here](./pages/example_logic.md) to see an example of ***how to use this website*** to aid you through the through process of identifying the type of data you have and what statistical analysis you should choose based on the assumptions you are making about your data.
+[Click here](./pages/preface/example_logic.md) to see an example of ***how to use this website*** to aid you through the through process of identifying the type of data you have and what statistical analysis you should choose based on the assumptions you are making about your data.
 
 [Click here](./pages/normal_dist.md) to understand what a ***normal distribution*** is and why it is referenced so much.
 
