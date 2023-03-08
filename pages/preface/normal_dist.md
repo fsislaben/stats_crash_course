@@ -2,7 +2,7 @@
 
 ***TL;DR - When visualized, a normal distribution is a bell curve. Points around the mean occur at a higher frequency than points further from the mean.***
 
-![](../pages/images/bellcurve.png)
+![](../../pages/images/bellcurve.png)
 
 The normal distribution, also known as a Gaussian distribution is a probability distribution that is symmetric about the mean.
 Symmetric distributions are where a dividing line can produce two mirror images.
