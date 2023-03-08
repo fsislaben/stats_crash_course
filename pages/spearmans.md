@@ -60,4 +60,4 @@ Just because you ran the analysis in JMP does not mean you have to use JMP to vi
 As long as you have a statistically significant result you can generate the plots however you would like (e.g., Excel, Google Sheets, R, Python).
 All you need to do is add an annotation to the figure that has the rho value displayed.
 A scatter plot would be a good way of visualizing the results of a Spearman's correlation test.
-The scatter plot would present both the spread of the data while also incorporating, throwing a line of best fit in the mix may also help the audience see the relationship.
+The scatter plot would present both the spread of the data while also visualizing the trend between the variables.
