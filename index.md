@@ -37,7 +37,7 @@ Parametric:
 Nonparametric:
 - [Fisher's exact test](./pages/fisherstest.md)
 - [Friedman test](./pages/friedman.md)
-- Jonckheere-Terpstra test
+- [Jonckheere-Terpstra test](./pages/jonckheere.md)
 - [Kendall's tau](./pages/kendallstau.md)
 - [Kendall's W](./pages/kendallsw.md)
 - [Kruskal-Wallis test](./pages/kruskal.md)
