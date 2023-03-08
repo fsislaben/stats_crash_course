@@ -20,6 +20,9 @@ Understanding the difference between them is key to understanding when to use on
 
 [Click here](./pages/catvsnumdata.md) to understand the difference between ***categorical and numeric data.***
 
+[Click here](./pages/preface/jonvskrusvsfried.md) to understand the ***difference be the the Kruskal-Wallis test, the Friedman test, and the Jonckheere-Terpstra test***.
+These are are extremely similar tests so it would be good to clear up these right now.
+
 ## Tests covered in this website
 
 Parametric:
@@ -27,7 +30,7 @@ Parametric:
 - [Chi-squared test](./pages/chisquare.md)
 - [Paired samples T-test](./pages/pairedttest.md)
 - [Pearson's correlation](./pages/pearsons.md)
-- Repeated measures ANOVA
+- [Repeated measures ANOVA](./pages/repanova.md)
 - [T-test](./pages/ttest.md)
 - [Z-test](./pages/ztest.md)
 
@@ -66,7 +69,7 @@ Are the sample sizes equal or unequal?
 
 Are the data normally distributed?
 
-- Normally distributed: [paired samples t-test](./pages/pairedttest.md) or repeated measures ANOVA
+- Normally distributed: [paired samples t-test](./pages/pairedttest.md) or [repeated measures ANOVA](./pages/repanova.md)
 
 - Not normally distributed: [Wilcoxon signed-rank test](./pages/wilcoxon.md) or [Friedman test](./pages/friedman.md)
 
