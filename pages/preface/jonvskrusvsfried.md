@@ -3,7 +3,7 @@
 The Jonckheere-Terpstra, Kruskal-Wallis, and Friedman tests are all non-parametric statistical tests that are used to compare multiple groups of data.
 However, there are some differences between these tests, and their appropriate use depends on the type of data and research question being investigated.
 
-***TL;DR TYhe Kruskal-Wallis and Friedman tests are used when the groups are independent and related, respectively, and the dependent variable is continuous but not normally distributed.
+***TL;DR The Kruskal-Wallis and Friedman tests are used when the groups are independent and related, respectively, and the dependent variable is continuous but not normally distributed.
 The Jonckheere-Terpstra test, on the other hand, is used to test for trends in ordinal independent variables with a continuous dependent variable.***
 
 ## The Kruskal-Wallis test
