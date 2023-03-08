@@ -50,7 +50,9 @@ You end up with data that looks like the following:
 
 The Spearman's correlation coefficient (rho) comes out to be rho = 1.0, which is a perfect positive correlation.
 Something to understand here is that rho does not mean a strong linear relationship.
-A high rho just indicates that there is a positive correlation; nothing about the nature of that positive correlation.
+***A high rho just indicates that there is a positive correlation; nothing about the nature of that positive correlation.***
+This positive correlation could be logarithmic, exponential, or linear.
+You won't know which one it is unless you plot it.
 
 # Visualizing the results
 

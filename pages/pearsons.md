@@ -39,7 +39,7 @@ You start tracking your coffee intake and words per minute for 10 days.
 | 7              | 140           |
 
 The Pearson's correlation comes out to be r = 1.0, which is a perfect positive correlation.
-This means that as the number of cups of coffee you drink per day increases, your productivity level also increases.
+This means that as the number of cups of coffee you drink per day increases, your productivity level also increases in a linear fashion.
 
 However, before you go overboard and start drinking 10 cups of coffee a day, it's important to remember that correlation does not always equal causation!
 It's possible that other factors, such as sleep quality or workload, could be affecting your productivity as well.

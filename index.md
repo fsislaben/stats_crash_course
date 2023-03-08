@@ -93,7 +93,7 @@ Related groups: [McNemar's test](./pages/mcnemar.md)
 
 ## Is the relationship linear or non-linear?
 
-- Linear relationship: [Pearson's correlation](./pages/pearsons.md) or Spearman's rank correlation
+- Linear relationship: [Pearson's correlation](./pages/pearsons.md) or [Spearman's rank correlation](./pages/spearmans.md)
 
 - Non-linear relationship: non-parametric tests (e.g. Kendall's tau or Kendall's W)
 
