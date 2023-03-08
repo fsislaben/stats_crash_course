@@ -20,6 +20,29 @@ Understanding the difference between them is key to understanding when to use on
 
 [Click here](./pages/catvsnumdata.md) to understand the difference between ***categorical and numeric data.***
 
+## Tests covered in this website
+
+Parametric:
+- [ANOVA](./pages/anova.md)
+- [Chi-squared test](./pages/chisquare.md)
+- [Paired samples T-test](./pages/pairedttest.md)
+- [Pearson's correlation](./pages/pearsons.md)
+- Repeated measures ANOVA
+- [T-test](./pages/ttest.md)
+- [Z-test](./pages/ztest.md)
+
+Nonparametric:
+- [Fisher's exact test](./pages/fisherstest.md)
+- [Friedman test](./pages/friedman.md)
+- Jonckheere-Terpstra test
+- [Kendall's tau](./pages/kendallstau.md)
+- [Kendall's W](./pages/kendallsw.md)
+- [Kruskal-Wallis test](./pages/kruskal.md)
+- [Mann-Whitney U test](./pages/manwhit.md)
+- [McNemar's test](./pages/mcnemar.md)
+- [Spearman's rank correlation](./pages/spearmans.md)
+- [Wilcoxon signed-rank test](./pages/wilcoxon.md)
+
 # Is the research question focused on comparing the means of two or more groups?
 
 ## Are the groups independent or related?
@@ -30,7 +53,7 @@ Are the data normally distributed?
 
 -  Normally distributed: [t-test](./pages/ttest.md) or [ANOVA](./pages/anova.md)
 
--  Not normally distributed: [Mann-Whitney U](./pages/manwhit.md) test or Kruskal-Wallis test
+-  Not normally distributed: [Mann-Whitney U test](./pages/manwhit.md) or [Kruskal-Wallis test](./pages/kruskal.md)
 
 Are the sample sizes equal or unequal?
 
@@ -44,13 +67,13 @@ Are the data normally distributed?
 
 - Normally distributed: [paired samples t-test](./pages/pairedttest.md) or repeated measures ANOVA
 
-- Not normally distributed: [Wilcoxon signed-rank test](./pages/wilcoxon.md) or Friedman test
+- Not normally distributed: [Wilcoxon signed-rank test](./pages/wilcoxon.md) or [Friedman test](./pages/friedman.md)
 
 ## Are the groups independent or paired?
 
 Independent groups: [chi-squared test](./pages/chisquare.md) or [Fisher's exact test](./pages/fisherstest.md)
 
-Paired groups: McNemar's test
+Paired groups: [McNemar's test](./pages/mcnemar.md)
 
 # Is the research question focused on comparing proportions or percentages between two or more groups?
 
@@ -60,28 +83,28 @@ Paired groups: McNemar's test
 
 Are the sample sizes large (at least 10 in each group)?
 
-- Yes: z-test or [chi-squared test](./pages/chisquare.md)
+- Yes: [z-test](./pages/ztest.md) or [chi-squared test](./pages/chisquare.md)
 
 - No: [Fisher's exact test](./pages/fisherstest.md)
 
-Related groups: McNemar's test
+Related groups: [McNemar's test](./pages/mcnemar.md)
 
 # Is the research question focused on determining the relationship between two continuous variables?
 
 ## Is the relationship linear or non-linear?
 
-- Linear relationship: Pearson's correlation or Spearman's rank correlation
+- Linear relationship: [Pearson's correlation](./pages/pearsons.md) or [Spearman's rank correlation](./pages/spearmans.md)
 
-- Non-linear relationship: non-parametric tests (e.g. Kendall's tau or Kendall's W)
+- Non-linear relationship: non-parametric tests (e.g. [Kendall's tau](./pages/kendallstau.md) or [Kendall's W](./pages/kendallsw.md))
 
 # Is the research question focused on determining the relationship between a continuous and a categorical variable?
 
 ## Is the categorical variable nominal or ordinal?
 
-- Nominal: [ANOVA](./pages/anova.md) or Kruskal-Wallis test
+- Nominal: [ANOVA](./pages/anova.md) or [Kruskal-Wallis test](./pages/kruskal.md)
 
 - Ordinal: Jonckheere-Terpstra test or [Wilcoxon rank-sum test](./pages/wilcoxon.md)
 
 # Is the research question focused on testing the difference between two dependent proportions or percentages?
 
-- McNemar's test
+- [McNemar's test](./pages/mcnemar.md)

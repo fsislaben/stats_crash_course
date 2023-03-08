@@ -33,13 +33,13 @@ Parametric:
 
 Nonparametric:
 - [Fisher's exact test](./pages/fisherstest.md)
-- Friedman test
+- [Friedman test](./pages/friedman.md)
 - Jonckheere-Terpstra test
-- [Kendall's tau](./kendallstau.md)
-- [Kendall's W](./kendallsw.md)
-- [Kruskal-Wallis test](./kruskal.md)
+- [Kendall's tau](./pages/kendallstau.md)
+- [Kendall's W](./pages/kendallsw.md)
+- [Kruskal-Wallis test](./pages/kruskal.md)
 - [Mann-Whitney U test](./pages/manwhit.md)
-- [McNemar's test](./mcnemar.md)
+- [McNemar's test](./pages/mcnemar.md)
 - [Spearman's rank correlation](./pages/spearmans.md)
 - [Wilcoxon signed-rank test](./pages/wilcoxon.md)
 
@@ -67,7 +67,7 @@ Are the data normally distributed?
 
 - Normally distributed: [paired samples t-test](./pages/pairedttest.md) or repeated measures ANOVA
 
-- Not normally distributed: [Wilcoxon signed-rank test](./pages/wilcoxon.md) or Friedman test
+- Not normally distributed: [Wilcoxon signed-rank test](./pages/wilcoxon.md) or [Friedman test](./pages/friedman.md)
 
 ## Are the groups independent or paired?
 
@@ -95,7 +95,7 @@ Related groups: [McNemar's test](./pages/mcnemar.md)
 
 - Linear relationship: [Pearson's correlation](./pages/pearsons.md) or [Spearman's rank correlation](./pages/spearmans.md)
 
-- Non-linear relationship: non-parametric tests (e.g. [Kendall's tau](./kendallstau.md) or [Kendall's W](./kendallsw.md))
+- Non-linear relationship: non-parametric tests (e.g. [Kendall's tau](./pages/kendallstau.md) or [Kendall's W](./pages/kendallsw.md))
 
 # Is the research question focused on determining the relationship between a continuous and a categorical variable?
 
