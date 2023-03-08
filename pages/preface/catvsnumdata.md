@@ -2,7 +2,7 @@
 
 ***TL;DR numerical data refers to numbers while categorical data is basically everything else.***
 
-![](../pages/images/catvsnum.png)
+![](../../pages/images/catvsnum.png)
 
 # Categorical data
 
