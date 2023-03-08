@@ -8,8 +8,8 @@ It is similar to the one-way repeated measures ANOVA, but is used when the assum
 ***TL;DR The Friedman test is used for related groups with ordinal data, while the Kruskal-Wallis test is used for independent groups with ordinal data.***
 
 You would be right but there are a couple of key differences between the Friedman test and the Kruskal-Wallis test.
-- The Friedman test assumes that the data are measured on an ordinal scale and that the observations within each group are related (i.e., repeated measures or matched pairs). The Kruskal-Wallis test assumes that the data are independent and identically distributed, and only requires that the groups be measured on an ordinal scale.
-- Post-hoc tests: If the Friedman test or Kruskal-Wallis test shows that there is a significant difference between the groups, post-hoc tests can be used to determine which groups differ significantly from each other. The most common post-hoc test for the Friedman test is the Wilcoxon signed-rank test, while the most common post-hoc test for the Kruskal-Wallis test is the Dunn's test.
+- ***Assumptions:*** The Friedman test assumes that the data are measured on an ordinal scale and that the observations within each group are related (i.e., repeated measures or matched pairs). The Kruskal-Wallis test assumes that the data are independent and identically distributed, and only requires that the groups be measured on an ordinal scale.
+- ***Post-hoc tests:*** If the Friedman test or Kruskal-Wallis test shows that there is a significant difference between the groups, post-hoc tests can be used to determine which groups differ significantly from each other. The most common post-hoc test for the Friedman test is the Wilcoxon signed-rank test, while the most common post-hoc test for the Kruskal-Wallis test is the Dunn's test.
 
 The ***null hypothesis*** of the Friedman test is that there is ***no difference in the mean ranks of the groups.***
 
@@ -39,7 +39,14 @@ Your data should look something like this:
 As you analyze the data, you notice that hip-hop is the most popular genre among young people, while rock is more popular among older fans.
 You also notice that there are some fans who rate all three genres equally, while others have a strong preference for one over the others.
 
-When you run the Friedman test, you find that there is a significant difference in the mean preference for each genre, indicating that some genres may be more popular than others among music fans.
+When you run the Friedman test, the p-value returned is < 0.05 indicating a significant difference in the mean preference for each genre, indicating that some genres may be more popular than others among music fans.
+HOWEVER, you do not know who is different until you apply a post hoc test.
+
+## Post hoc test
+
+The most common post-hoc test for the Friedman test is the [Wilcoxon signed-rank test](../pages/wilcoxon.md).
+Briefly, the Wilcoxon signed-rank is a nonparametric test that can be effective at determining if paired data have different means.
+Much like the post hoc Tukey test following an ANOVA or a Dunn's test following a Kruskal-Wallis test, you MUST perform the Wilcoxon signed-rank test to identify WHICH groups are different.
 
 ## Visualizing the results
 
