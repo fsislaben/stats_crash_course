@@ -19,18 +19,18 @@ Instead of conducting a survey, you decide to observe the order in which custome
 
 You record the order of ice cream flavors chosen by 10 customers, and end up with the following data:
 
-|             | Choice 1   | Choice 2   | Choice 3   |
-| ----------- | ---------- | ---------- | ---------- |
-| Customer 1  | Chocolate  | Vanilla    | Strawberry |
-| Customer 2  | Vanilla    | Chocolate  | Strawberry |
-| Customer 3  | Strawberry | Chocolate  | Vanilla    |
-| Customer 4  | Chocolate  | Strawberry | Vanilla    |
-| Customer 5  | Vanilla    | Strawberry | Chocolate  |
-| Customer 6  | Strawberry | Vanilla    | Chocolate  |
-| Customer 7  | Chocolate  | Vanilla    | Strawberry |
-| Customer 8  | Vanilla    | Chocolate  | Strawberry |
-| Customer 9  | Strawberry | Vanilla    | Chocolate  |
-| Customer 10 | Chocolate  | Strawberry | Vanilla    |
+|             | Choice 1   | Choice 2   |
+| ----------- | ---------- | ---------- |
+| Customer 1  | Chocolate  | Vanilla    |
+| Customer 2  | Vanilla    | Chocolate  |
+| Customer 3  | Strawberry | Chocolate  |
+| Customer 4  | Chocolate  | Strawberry |
+| Customer 5  | Vanilla    | Strawberry |
+| Customer 6  | Strawberry | Vanilla    |
+| Customer 7  | Chocolate  | Vanilla    |
+| Customer 8  | Vanilla    | Chocolate  |
+| Customer 9  | Strawberry | Vanilla    |
+| Customer 10 | Chocolate  | Strawberry |
 
 You want to know if there is a correlation between the order in which customers choose their ice cream flavors.
 To do this, you can use Kendall's tau.

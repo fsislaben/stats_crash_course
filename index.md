@@ -35,8 +35,8 @@ Nonparametric:
 - [Fisher's exact test](./pages/fisherstest.md)
 - Friedman test
 - Jonckheere-Terpstra test
-- Kendall's tau
-- Kendall's W
+- [Kendall's tau](./kendallstau.md)
+- [Kendall's W](./kendallsw.md)
 - [Kruskal-Wallis test](./kruskal.md)
 - [Mann-Whitney U test](./pages/manwhit.md)
 - [McNemar's test](./mcnemar.md)
@@ -95,7 +95,7 @@ Related groups: [McNemar's test](./pages/mcnemar.md)
 
 - Linear relationship: [Pearson's correlation](./pages/pearsons.md) or [Spearman's rank correlation](./pages/spearmans.md)
 
-- Non-linear relationship: non-parametric tests (e.g. Kendall's tau or Kendall's W)
+- Non-linear relationship: non-parametric tests (e.g. [Kendall's tau](./kendallstau.md) or [Kendall's W](./kendallsw.md))
 
 # Is the research question focused on determining the relationship between a continuous and a categorical variable?
 
