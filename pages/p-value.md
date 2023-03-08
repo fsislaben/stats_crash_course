@@ -1,6 +1,6 @@
 # What is a p-value?
 
-![](../pages/images/pval_viz.md)
+![](../pages/images/pval_viz.png)
 
 P-values are one of the most important values recovered and reported following a statistical test, and at the same time they are one of the most misinterpreted test statistics.
 I would like to clarify immediately that the p-value is NOT the probability that our hypothesis is correct but rather the probability that the sample in question was recovered from a population described under the null hypothesis.
