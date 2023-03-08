@@ -8,17 +8,17 @@ These are important background tidbits that will be extremely useful when unders
 
 [Click here](./pages/example_logic.md) to see an example of ***how to use this website*** to aid you through the through process of identifying the type of data you have and what statistical analysis you should choose based on the assumptions you are making about your data.
 
-[Click here](./pages/preface/normal_dist.md) to understand what a ***normal distribution*** is and why it is referenced so much.
+[Click here](./pages/normal_dist.md) to understand what a ***normal distribution*** is and why it is referenced so much.
 
-[Click here](./pages/preface/hypotheses.md) to understand the difference between the ***null and alternative hypotheses.***
+[Click here](./pages/hypotheses.md) to understand the difference between the ***null and alternative hypotheses.***
 
-[Click here](./pages/preface/p-value.md) to understand how to ***interpret a p-value.***
+[Click here](./pages/p-value.md) to understand how to ***interpret a p-value.***
 This is extremely an extremely important concept to understand so you do not over-interpret what the test statistic is reporting.
 
-[Click here](./pages/preface/parametric.md) to understand the difference between ***parametric and nonparametric statistics.***
+[Click here](./pages/parametric.md) to understand the difference between ***parametric and nonparametric statistics.***
 Understanding the difference between them is key to understanding when to use one or the other.
 
-[Click here](./pages/preface/catvsnumdata.md) to understand the difference between ***categorical and numeric data.***
+[Click here](./pages/catvsnumdata.md) to understand the difference between ***categorical and numeric data.***
 
 [Click here](./pages/preface/jonvskrusvsfried.md) to understand the ***difference be the the Kruskal-Wallis test, the Friedman test, and the Jonckheere-Terpstra test***.
 These are are extremely similar tests so it would be good to clear up these right now.
