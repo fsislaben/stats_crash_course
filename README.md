@@ -20,9 +20,6 @@ Understanding the difference between them is key to understanding when to use on
 
 [Click here](./pages/preface/catvsnumdata.md) to understand the difference between ***categorical and numeric data.***
 
-[Click here](./pages/preface/jonvskrusvsfried.md) to understand the ***difference be the the Kruskal-Wallis test, the Friedman test, and the Jonckheere-Terpstra test***.
-These are are extremely similar tests so it would be good to clear up these right now.
-
 ## Tests covered in this website
 
 Parametric:
@@ -37,7 +34,7 @@ Parametric:
 Nonparametric:
 - [Fisher's exact test](./pages/fisherstest.md)
 - [Friedman test](./pages/friedman.md)
-- Jonckheere-Terpstra test
+- [Jonckheere-Terpstra test](./pages/jonckheere.md)
 - [Kendall's tau](./pages/kendallstau.md)
 - [Kendall's W](./pages/kendallsw.md)
 - [Kruskal-Wallis test](./pages/kruskal.md)
@@ -112,3 +109,8 @@ Related groups: [McNemar's test](./pages/mcnemar.md)
 # Is the research question focused on testing the difference between two dependent proportions or percentages?
 
 - [McNemar's test](./pages/mcnemar.md)
+
+# Footnote
+
+[Click here](./pages/preface/jonvskrusvsfried.md) to understand the ***difference be the the Kruskal-Wallis test, the Friedman test, and the Jonckheere-Terpstra test***.
+These are are extremely similar tests so it would be good to clear up these right now.
