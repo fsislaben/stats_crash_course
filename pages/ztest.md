@@ -20,3 +20,12 @@ The alternative hypothesis is that there is a difference.
 When collecting you data you can record it like a [T-test](../pages/ttest.md) but you must make sure the number of observations you have is ≥ 30 for each population.
 
 If the z-test shows a significant difference, you can continue to have your team wear the lucky socks and celebrate their newfound success on the court. However, if the test shows no significant difference, you may want to reconsider the role of the lucky socks and come up with a new strategy for motivating your team.
+
+# Visualizing the results
+Just because you ran the analysis in JMP does not mean you have to use JMP to visualize your results.
+As long as you have a statistically significant result you can generate the plots however you would like (e.g., Excel, Google Sheets, R, Python).
+All you need to do is add an annotation to the figure that the P-value was < 0.05.
+A box-and-whisker plot would be a good way of visualizing the results of a Z-test.
+The box-and-whisker plot would present both the spread of the data while also incorporating error bars associated with the mean calculation.
+
+![](../pages/images/example_viz/ztest.png)
