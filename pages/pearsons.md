@@ -20,6 +20,8 @@ As a general rule of thumb use the following cut offs to determine the strength 
 - ***Low degree:*** When the value lies below + .29, then it is said to be a small correlation.
 - ***No correlation:*** When the value is zero.
 
+![](../pages/images/example_viz/correlation.png)
+
 # Example of when and how to use a Pearson's correlation
 
 Let's say you want to know if there is a correlation between the number of cups of coffee you drink per day and words per minute when typing.
