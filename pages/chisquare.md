@@ -65,3 +65,5 @@ Just because you ran the analysis in JMP does not mean you have to use JMP to vi
 All you need to do is add an annotation to the figure that the P-value was < 0.05.
 A good way to visualize the results of a chi-square test would be to a paired or grouped bar chart.
 These types of bar charts can clearly display the variation in counts vary between the relevant categories of interest.
+
+![](../pages/images/example_viz/chisquare.png)
