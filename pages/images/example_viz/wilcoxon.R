@@ -22,4 +22,8 @@ p <- ggboxplot(my_data, x = "group", y = "weight",
           order = c("before", "after"),
           ylab = "Weight", xlab = "Groups", add = "jitter")
 
+png("./viz_out/wilcoxon.png", units="in", width=8.9, height=5, res=300)
 p + stat_pvalue_manual(stat.test, label = "p = {p.adj}")
+dev.off()
+
+

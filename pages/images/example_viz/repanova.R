@@ -89,11 +89,14 @@ selfesteem2 %>%
     p.adjust.method = "bonferroni"
   )
 
-# Visualization: box plots with p-values
 pwc <- pwc %>% add_xy_position(x = "time")
+
+# Visualization: box plots with p-values
+png("./viz_out/repanova.png", units="in", width=8.9, height=5, res=300)
 bxp + 
   stat_pvalue_manual(pwc, tip.length = 0, hide.ns = TRUE) +
   labs(
     subtitle = get_test_label(res.aov, detailed = TRUE),
     caption = get_pwc_label(pwc)
   )
+dev.off()

@@ -41,6 +41,8 @@ my_comparisons <- list(c("Chinstrap", "Adelie"), c("Gentoo", "Adelie"), c("Gento
 
 # Edit at your own risk
 library(ggpubr)
+
+png("./viz_out/anova.png", units="in", width=8.9, height=5, res=300)
 for (i in y) {
   for (j in x) {
     p <- ggboxplot(dat,
@@ -58,16 +60,4 @@ for (i in y) {
     )
   }
 }
-
-# ggbetweenstats(
-#   data = dat,
-#   x = species,
-#   y = flipper_length_mm,
-#   type = "parametric", # ANOVA or Kruskal-Wallis
-#   var.equal = TRUE, # ANOVA or Welch ANOVA
-#   plot.type = "box",
-#   pairwise.comparisons = TRUE,
-#   pairwise.display = "significant",
-#   centrality.plotting = FALSE,
-#   bf.message = FALSE
-# )
+dev.off()

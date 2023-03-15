@@ -20,7 +20,7 @@ As a general rule of thumb use the following cut offs to determine the strength 
 - ***Low degree:*** When the value lies below + .29, then it is said to be a small correlation.
 - ***No correlation:*** When the value is zero.
 
-![](../pages/images/example_viz/correlation.png)
+![](../pages/images/example_viz/viz_out/correlation.png)
 
 # Example of when and how to use a Pearson's correlation
 
@@ -54,4 +54,4 @@ All you need to do is add an annotation to the figure that has the r value displ
 A scatter plot would be a good way of visualizing the results of a Pearson's correlation test.
 The scatter plot would present both the spread of the data while also incorporating, throwing a line of best fit in the mix may also help the audience see the relationship.
 
-![](../pages/images/example_viz/pearsons.png)
+![](../pages/images/example_viz/vix_out/pearsons.png)

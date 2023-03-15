@@ -28,7 +28,7 @@ test <- fisher.test(table(df))
 
 # combine plot and statistical test with ggbarstats
 library(ggstatsplot)
-ggbarstats(
+p <- ggbarstats(
   df, Smoking_habits, Sport_habits,
   results.subtitle = FALSE,
   subtitle = paste0(
@@ -36,3 +36,7 @@ ggbarstats(
     ifelse(test$p.value < 0.001, "< 0.001", round(test$p.value, 3))
   )
 )
+
+png("./viz_out/fisher.png", units="in", width=8.9, height=5, res=300)
+p
+dev.off()

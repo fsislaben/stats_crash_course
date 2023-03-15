@@ -9,4 +9,7 @@ my_data <- data.frame(
 )
 
 p <- ggboxplot(my_data, x = "group", y = "weight", color = "group", palette = "lancet", add = "jitter")
+
+png("./viz_out/paired_ttest.png", units="in", width=8.9, height=5, res=300)
 p + stat_compare_means(method = "t.test", paired = TRUE)
+dev.off()

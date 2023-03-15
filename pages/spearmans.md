@@ -28,7 +28,7 @@ As a general rule of thumb use the following cut offs to determine the strength 
 - ***Low degree:*** When the value lies below + .29, then it is said to be a small correlation.
 - ***No correlation:*** When the value is zero.
 
-![](../pages/images/example_viz/correlation.png)
+![](../pages/images/example_viz/viz_out/correlation.png)
 
 # Example of when and how to use a Spearman's rank correlation
 
@@ -64,4 +64,4 @@ All you need to do is add an annotation to the figure that has the rho value dis
 A scatter plot would be a good way of visualizing the results of a Spearman's correlation test.
 The scatter plot would present both the spread of the data while also visualizing the trend between the variables.
 
-![](../pages/images/example_viz/pearsons.png)
+![](../pages/images/example_viz/viz_out/pearsons.png)

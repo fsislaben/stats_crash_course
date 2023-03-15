@@ -57,4 +57,4 @@ All you need to do is add an annotation to the figure that the P-value was < 0.0
 A box-and-whisker plot would be a good way of visualizing the results of a T-test.
 The box-and-whisker plot would present both the spread of the data while also incorporating error bars associated with the mean calculation.
 
-![](../pages/images/example_viz/paired_ttest.png)
+![](../pages/images/example_viz/viz_out/paired_ttest.png)

@@ -63,4 +63,4 @@ Just because you ran the analysis in JMP does not mean you have to use JMP to vi
 All you need to do is add an annotation to the figure that the P-value was < 0.05.A box-and-whisker plot would be a good way of visualizing the results of a Wilcoxon test.
 The box-and-whisker plot would present both the spread of the data while also incorporating error bars associated with the mean calculation.
 
-![](../pages/images/example_viz/wilcoxon.png)
+![](../pages/images/example_viz/viz_out/wilcoxon.png)
