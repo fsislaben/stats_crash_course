@@ -2,7 +2,7 @@
 
 ***TL;DR - When visualized, a normal distribution is a bell curve. Points around the mean occur at a higher frequency than points further from the mean.***
 
-![](../../pages/images/bellcurve.png)
+![](../../pages/images/preface_viz/viz_out/bellcurve.png)
 
 The normal distribution, also known as a Gaussian distribution is a probability distribution that is symmetric about the mean.
 Symmetric distributions are where a dividing line can produce two mirror images.
@@ -24,3 +24,5 @@ In a normal distribution, 95% of values around found within +/- 2 standard devia
 In a normal distribution, 99.7% of values around found within +/- 3 standard deviation away from the mean.
 
 Typically, in statistics we use critical value that returns a 95% confidence interval meaning that +/- 2 standard deviations will account for 95% of naturally occurring variation within a normally distributed dataset.
+
+![](../../pages/images/preface_viz/viz_out/sd.png)

@@ -1,7 +1,22 @@
-#Author DataFlair
 x <- seq(-20, 20, by = .1)
 y <- dnorm(x, mean = 0, sd = 5.0)
+
+png("./viz_out/bellcurve.png", units="in", width=8.9, height=5, res=300)
 plot(x,y, main = "Normal Distribution", col = "blue")
+dev.off()
+
+df <- data.frame(x, y)
+
+df$x<=5&df$x>=-5
+
+s1 <- df[df$x<=5&df$x>=-5,]
+
+plot(x,y, main = "Standard Deviations", col = "blue")
+abline(v = 0)
+abline(v = 5, lty = 2)
+abline(v = 10, lty = 2)
+abline(v = -5, lty = 2)
+abline(v = -10, lty = 2)
 
 dnorm_limit <- function(x) {
   y <- dnorm(x)
@@ -16,8 +31,12 @@ p <- base +
       geom_ribbon() +
       theme_classic()
 
-criticalValues <- qnorm(c(.025,.975))
+png("./viz_out/overdist.png", units="in", width=8.9, height=5, res=300)
+p
+dev.off()
 
-shadeNormalTwoTailedLeft <- rbind(c(criticalValues[1],0), subset(normalDistribution, x < criticalValues[1]))
+# criticalValues <- qnorm(c(.025,.975))
 
-shadeNormalTwoTailedRight <- rbind(c(criticalValues[2],0), subset(normalDistribution, x > criticalValues[2]), c(3,0))
+# shadeNormalTwoTailedLeft <- rbind(c(criticalValues[1],0), subset(normalDistribution, x < criticalValues[1]))
+
+# shadeNormalTwoTailedRight <- rbind(c(criticalValues[2],0), subset(normalDistribution, x > criticalValues[2]), c(3,0))
