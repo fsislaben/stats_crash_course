@@ -1,0 +1,22 @@
+x= rbeta(10000,2,5)
+hist(x, main="Positive or Right Skewness", freq=FALSE)
+lines(density(x), col='red', lwd=3)
+abline(v = c(mean(x),median(x)),  col=c("green", "red"), lty=c(2,2), lwd=c(3, 3))
+
+y = rbeta(10000,5,5)
+hist(y, main="Symmetrical", freq=FALSE)
+lines(density(y), col='red', lwd=3)
+abline(v = c(mean(y),median(y)),  col=c("green", "red"), lty=c(2,2), lwd=c(3, 3))
+
+z = rbeta(10000,5,2)
+hist(z, main="Symmetrical", freq=FALSE)
+lines(density(z), col='red', lwd=3)
+abline(v = c(mean(z),median(z)),  col=c("green", "red"), lty=c(2,2), lwd=c(3, 3))
+
+png("./viz_out/normvsskew.png", units="in", width=8.9, height=5, res=300)
+plot(density(y), col = "red", main="Symmetrical vs Skewed", lwd = 3, xlab = "x", ylab = "y")
+abline(v = c(mean(y),median(y)),  col=c("violet", "maroon"), lty=c(2,2), lwd=c(3, 3))
+lines(density(x), col = "blue", lwd = 3)
+abline(v = c(mean(x),median(x)),  col=c("cyan", "navy"), lty=c(2,2), lwd=c(3, 3))
+legend("topright", legend = c("Left Skewed", "Symmetric"), col = c("blue", "red"), pch = 19)
+dev.off()
