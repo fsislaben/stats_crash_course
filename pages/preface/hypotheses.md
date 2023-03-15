@@ -1,6 +1,6 @@
 # What are statistical hypotheses?
 
-![](../../pages/images/overdist.png)
+![](../../pages/images/preface_viz/viz_out/overdist.png)
 
 If you have had any interactions with statistics or statistical tests something you have probably come across are the terms ***"null hypothesis (H0)"*** and ***"alternative hypothesis (H1)"***.
 The idea of hypothesis testing lies at the core of the scientific method and is a useful tool to help you determine if patterns you observe in your data a "significant". This "significant" difference can either support (or not support) the difference that you expect to see between two (or more) sample sets.

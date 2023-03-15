@@ -11,12 +11,14 @@ df$x<=5&df$x>=-5
 
 s1 <- df[df$x<=5&df$x>=-5,]
 
+png("./viz_out/sd.png", units="in", width=8.9, height=5, res=300)
 plot(x,y, main = "Standard Deviations", col = "blue")
 abline(v = 0)
 abline(v = 5, lty = 2)
 abline(v = 10, lty = 2)
 abline(v = -5, lty = 2)
 abline(v = -10, lty = 2)
+dev.off()
 
 dnorm_limit <- function(x) {
   y <- dnorm(x)

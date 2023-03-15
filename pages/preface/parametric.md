@@ -1,6 +1,6 @@
 # Parametric vs Non Parametric
 
-![](../../pages/images/normvsskew.png)
+![](../../pages/images/preface_viz/viz_out/normvsskew.png)
 
 ***TL;DR - parametric statistics are are based on the assumption that the population(s) in question follows a normal distribution.
 Nonparametric statistics are NOT based on the assumption that the population(s) in question falls under a normal distribution.
