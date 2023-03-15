@@ -51,3 +51,5 @@ As long as you have a statistically significant result you can generate the plot
 All you need to do is add an annotation to the figure that has the r value displayed.
 A scatter plot would be a good way of visualizing the results of a Pearson's correlation test.
 The scatter plot would present both the spread of the data while also incorporating, throwing a line of best fit in the mix may also help the audience see the relationship.
+
+![](../pages/images/example_viz/pearsons.png)

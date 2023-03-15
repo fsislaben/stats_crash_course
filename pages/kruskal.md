@@ -55,3 +55,5 @@ Just because you ran the analysis in JMP does not mean you have to use JMP to vi
 All you need to do is add an annotation to the figure that specify which groups have a p-value was < 0.05.
 A box-and-whisker plot would be a good way of visualizing the results of a Kruskal-Wallis test.
 The box-and-whisker plot would present both the spread of the data while also incorporating error bars/confidence intervals.
+
+![](../pages/images/example_viz/kruskal_viz.png)
