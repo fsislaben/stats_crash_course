@@ -1,6 +1,6 @@
 # McNemar test
 
-The McNemar test is a nonparametric test for paired [nominal data](../pages/catvsnumdata.md).
+The McNemar test is a nonparametric test for paired [nominal data](../../pages/preface/catvsnumdata.md).
 What this basically means is that you are finding a change in proportion between paired data.
 The McNemar test can also be considered the nonparametric equivalent to the paired T-test.
 
