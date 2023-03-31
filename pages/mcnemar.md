@@ -1,6 +1,6 @@
 # McNemar test
 
-The McNemar test is a nonparametric test for paired [nominal data](../../pages/preface/catvsnumdata.md).
+The McNemar test is a nonparametric test for paired [nominal data](../pages/preface/catvsnumdata.md).
 What this basically means is that you are finding a change in proportion between paired data.
 The McNemar test can also be considered the nonparametric equivalent to the paired T-test.
 
@@ -25,7 +25,7 @@ There are 3 assumptions for the McNemar Test:
 - The two groups in your dependent variable must be mutually exclusive; participants cannot appear in more than 1 groups
 - The sample must be random
 
-If your data does meet these criteria you may want to consider using a [chi-square](../pages/chisquare.md)
+If your data does meet these criteria you may want to consider using a [chi-square](../pages/preface/chisquare.md)
 
 ## Visualizing the results
 
