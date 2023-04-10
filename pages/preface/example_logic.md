@@ -11,7 +11,7 @@ What you should have completed already:
 
 ## Example workflow
 
-My research project is "Is there a notable difference in miles per gallon with between cars with an automatic transmission and cars with an automatic transmission?"
+My research project is "Is there a notable difference in miles per gallon with between cars with an automatic transmission and cars with a manual transmission?"
 
 I have collected data that looks like this:
 
